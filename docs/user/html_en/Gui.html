@@ -1,0 +1,1766 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+    <title>Graphical User Interface &#8212; ProjeQtOr User guide 11.1 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/classic.css" />
+    <link rel="stylesheet" href="_static/projeqtor.css" type="text/css" />
+    
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="_static/doctools.js"></script>
+    
+    <link rel="shortcut icon" href="_static/favicon.ico"/>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Common sections" href="CommonSections.html" />
+    <link rel="prev" title="Tools" href="Tools.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="CommonSections.html" title="Common sections"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="Tools.html" title="Tools"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">ProjeQtOr User guide 11.1 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Graphical User Interface</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="graphical-user-interface">
+<span id="gui"></span><span id="graphic-user-interface"></span><h1>Graphical User Interface<a class="headerlink" href="#graphical-user-interface" title="Permalink to this heading">¶</a></h1>
+<p id="overview-9-0">ProjeQtOr interface is divided into several areas.</p>
+<figure class="align-center" id="id4">
+<img alt="Overview" src="_images/GUI_SCR_Overview.png" />
+<figcaption>
+<p><span class="caption-text">Overview graphical user interface screen</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<aside class="topic">
+<p class="topic-title">Interface areas:</p>
+<p><a class="reference internal" href="_images/one.png"><img alt="One" src="_images/one.png" style="width: 18.0px; height: 18.0px;" /></a> <a class="reference internal" href="#top-bar"><span class="std std-ref">Top bar</span></a></p>
+<p><a class="reference internal" href="_images/two.png"><img alt="Two" src="_images/two.png" style="width: 18.0px; height: 18.0px;" /></a> <a class="reference internal" href="#infosbar"><span class="std std-ref">Infos bar</span></a></p>
+<p><a class="reference internal" href="_images/three.png"><img alt="Three" src="_images/three.png" style="width: 18.0px; height: 18.0px;" /></a> <a class="reference internal" href="#custommenu"><span class="std std-ref">Custom Menu</span></a></p>
+<p><a class="reference internal" href="_images/four.png"><img alt="Four" src="_images/four.png" style="width: 18.0px; height: 18.0px;" /></a> <a class="reference internal" href="#menu"><span class="std std-ref">Menu</span></a></p>
+<p><a class="reference internal" href="_images/five.png"><img alt="Five" src="_images/five.png" style="width: 18.0px; height: 18.0px;" /></a> <a class="reference internal" href="#secondary-menu"><span class="std std-ref">Secondary menu</span></a></p>
+<p><a class="reference internal" href="_images/six.png"><img alt="Six" src="_images/six.png" style="width: 18.0px; height: 18.0px;" /></a> <a class="reference internal" href="#list-window"><span class="std std-ref">List Area</span></a></p>
+<p><a class="reference internal" href="_images/seven.png"><img alt="Seven" src="_images/seven.png" style="width: 18.0px; height: 18.0px;" /></a> <a class="reference internal" href="#detail-window"><span class="std std-ref">Details area</span></a></p>
+<p><a class="reference internal" href="_images/eight.png"><img alt="Eight" src="_images/eight.png" style="width: 18.0px; height: 18.0px;" /></a> <a class="reference internal" href="TransverseFeatures.html#activity-stream"><span class="std std-ref">Activity Stream</span></a></p>
+</aside>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Area separation</p>
+<figure class="align-center" id="id5">
+<a class="reference internal image-reference" href="_images/GUI_SCR_Splitters.png"><img alt="Windows splitters" src="_images/GUI_SCR_Splitters.png" style="width: 376.2px; height: 154.95px;" /></a>
+<figcaption>
+<p><span class="caption-text">The splitters allow resizing areas in the interface. The position of splitters is saved and retrieved on each connection.</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+</div>
+<section id="top-bar">
+<span id="id1"></span><h2>Top bar<a class="headerlink" href="#top-bar" title="Permalink to this heading">¶</a></h2>
+<figure class="align-center">
+<img alt="Top bar" src="_images/GUI_ZONE_TopBar.png" />
+</figure>
+<aside class="topic">
+<p class="topic-title">Interface areas:</p>
+<p><a class="reference internal" href="_images/one.png"><img alt="One" src="_images/one.png" style="width: 18.0px; height: 18.0px;" /></a> <a class="reference internal" href="#navigation-buttons"><span class="std std-ref">Navigation buttons</span></a></p>
+<p><a class="reference internal" href="_images/two.png"><img alt="Two" src="_images/two.png" style="width: 18.0px; height: 18.0px;" /></a> <a class="reference internal" href="#buttons-newtab"><span class="std std-ref">New tab</span></a></p>
+<p><a class="reference internal" href="_images/three.png"><img alt="Three" src="_images/three.png" style="width: 18.0px; height: 18.0px;" /></a>  <a class="reference internal" href="#project-selector"><span class="std std-ref">Project selector</span></a></p>
+<p><a class="reference internal" href="_images/four.png"><img alt="Four" src="_images/four.png" style="width: 18.0px; height: 18.0px;" /></a> <a class="reference internal" href="#name-topbar"><span class="std std-ref">Instance name</span></a></p>
+</aside>
+<p class="rubric" id="navigation-buttons"><a class="reference internal" href="_images/oneBLC.png"><img alt="One" src="_images/oneBLC.png" style="width: 18.0px; height: 18.0px;" /></a> Navigation buttons</p>
+<p>The navigation buttons <a class="reference internal" href="_images/iconLeft.png"><img alt="Button icon back navigation" src="_images/iconLeft.png" style="width: 12.6px; height: 17.849999999999998px;" /></a> <a class="reference internal" href="_images/iconRight.png"><img alt="Button icon forward navigation" src="_images/iconRight.png" style="width: 12.45px; height: 17.849999999999998px;" /></a> give access to previous and next pages in the history.</p>
+<p>The Ajax technology used by ProjeQtOr makes it possible to refresh the data while preserving the structure of the solution.</p>
+<p>This is why you will lose the session to projeqtor if you use the navigation of your internet browser.</p>
+<p class="rubric" id="buttons-newtab"><a class="reference internal" href="_images/twoBLC.png"><img alt="Two" src="_images/twoBLC.png" style="width: 18.0px; height: 18.0px;" /></a> Button New tab</p>
+<p>The new tab button <a class="reference internal" href="_images/iconNewtab.png"><img alt="Open a new tab" src="_images/iconNewtab.png" style="width: 18.45px; height: 13.049999999999999px;" /></a> allows to open a new tab within the same session.</p>
+<p>When you open a tab on your browser, it opens a new session of ProjeQtOr.</p>
+<p>For the browser to open the tab as a result of the first session you must go through our navigation system.</p>
+<p>When you are already connected to a session, a screen indicates this to you.</p>
+<p>Click on the button to reconnect from this tab or leave this one to recover the current session.</p>
+<figure class="align-default" id="id6">
+<img alt="Already connected" src="_images/GUI_ZONE_DbleConnection.png" />
+<figcaption>
+<p><span class="caption-text">already connected</span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<p class="rubric" id="project-selector"><span id="index-0"></span><a class="reference internal" href="_images/threeBLC.png"><img alt="Three" src="_images/threeBLC.png" style="width: 18.0px; height: 18.0px;" /></a> Project selector</p>
+<figure class="align-default" id="id7">
+<img alt="Project Selector" src="_images/GUI_ZONE_ProjectSelector.png" />
+<figcaption>
+<p><span class="caption-text">Project selector</span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<p>Allows to select the project to work on.</p>
+<p>Limited visibility of all elements of the selected project, including sub-projects if applicable.</p>
+<p>Definition of the “default” project for new elements.</p>
+<p>Visibility only of favorite projects in other lists.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong>User parameter</strong></p>
+<p><strong>default project</strong> Defines the project that will be selected and display by default into the project selector</p>
+<p>See: <a class="reference internal" href="UserParameter.html#up-automation"><span class="std std-ref">User parameters - section automation</span></a></p>
+</div>
+<div class="compound">
+<p>Project selector parameters</p>
+<p>Click on <a class="reference internal" href="_images/iconParameter.png"><img alt="Parameter" src="_images/iconParameter.png" style="width: 19.05px; height: 19.2px;" /></a> to display the project selector parameters dialog box.</p>
+<figure class="align-center" id="id8">
+<img alt="Dialog box - Project selector parameters" src="_images/GUI_BOX_ProjectSelect-Param.png" />
+<figcaption>
+<p><span class="caption-text">Dialog box - Project selector parameters</span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+</div>
+<p>3 tabs allow you to adjust certain aspects of the selector**</p>
+<ul class="simple">
+<li><p>Selector format</p></li>
+<li><p>Favorites</p></li>
+<li><p>and others…</p></li>
+</ul>
+<p class="rubric">Selector format</p>
+<p>In the format tab of the selector, you choose how the elements are displayed in the list.</p>
+<blockquote>
+<div><div class="compound">
+<p>Display the projects in progress</p>
+<p>This option allows to display only in the list of the project selector, the projects with the macro state in progress.</p>
+</div>
+<div class="compound">
+<p>Show level projects</p>
+<p>It is possible to choose the number of sub-projects displayed in the project selector.</p>
+<figure class="align-default" id="id9">
+<img alt="Projects Selector with level display" src="_images/GUI_ZONE_ProjectSelect-Level.png" />
+<figcaption>
+<p><span class="caption-text">Projects Selector with level display</span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+</div>
+<div class="compound">
+<p>Project list display mode</p>
+<p>ProjeQtOr offers the possibility to display the list of projects in different ways.</p>
+<blockquote id="standard-display-ps">
+<div><div class="compound">
+<p>Standard reflecting WBS structure</p>
+<ul class="simple">
+<li><p>List of project and sub-project are displayed according to WBS structure.</p></li>
+<li><p>This is the only presentation mode where you can create favorites lists.</p></li>
+<li><p>You can choose to display multiple projects by checking the corresponding boxes.</p></li>
+</ul>
+<figure class="align-center" id="id10">
+<img alt="Example - Project list display mode standard" src="_images/GUI_ZONE_ProjectSelect-StandardMode.png" />
+<figcaption>
+<p><span class="caption-text">Project list display mode standard</span><a class="headerlink" href="#id10" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+</div>
+<div class="compound">
+<p>Filtering select with autocomplete</p>
+<ul class="simple">
+<li><p>List of project and sub-project are displayed according to entered text.</p></li>
+<li><p>Search criteria works in a “starts with” mode</p></li>
+<li><p>Autocompletion is active</p></li>
+<li><p>Compatible with favorites, but you can no longer create a list.</p></li>
+</ul>
+<figure class="align-center" id="id11">
+<img alt="Example - Filtering select (with autocomplete)" src="_images/GUI_ZONE_ProjectSelect-AutoCompMode.png" />
+<figcaption>
+<p><span class="caption-text">Filtering select with autocomplete</span><a class="headerlink" href="#id11" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+</div>
+<div class="compound">
+<p>Filtering select with search</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>List of project and sub-project are displayed according to search criteria.</p></li>
+<li><p>Search criteria works in a “contains” mode</p></li>
+<li><p>Autocompletion is <strong>not</strong> active</p></li>
+<li><p>Compatible with favorites, but you can no longer create a list.</p></li>
+</ul>
+</div></blockquote>
+<figure class="align-center" id="id12">
+<img alt="Example - Filtering select (with search)" src="_images/GUI_ZONE_ProjectSelect-SearchMode.png" />
+<figcaption>
+<p><span class="caption-text">Filtering select with search</span><a class="headerlink" href="#id12" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+</div>
+</div></blockquote>
+</div>
+</div></blockquote>
+<p class="rubric">Favorites project</p>
+<div class="compound" id="favorites-projects">
+<p>Favorites for Project Selector</p>
+<blockquote>
+<div><p>You can create several favorites project list.</p>
+<figure class="align-default" id="id13">
+<img alt="Project selector favorites" src="_images/GUI_ZONE_FavoritesSelection.png" />
+<figcaption>
+<p><span class="caption-text">project selector favorites</span><a class="headerlink" href="#id13" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<ul class="simple">
+<li><p>Click on the <a class="reference internal" href="_images/iconStar.png"><img alt="mandatory attendant" src="_images/iconStar.png" style="width: 19.2px; height: 19.2px;" /></a> displayed to the right of the project to select the project to add to your favorites list.</p></li>
+<li><p>You can only create a favorites list from the layout representing the WBS structure in the previous tab. See: <a class="reference internal" href="#standard-display-ps"><span class="std std-ref">Standard display mode</span></a>.</p></li>
+<li><p>The lists are however compatible with all presentation modes</p></li>
+<li><p>Each selection is highlighted with the secondary color of your session</p></li>
+<li><p>Click on <a class="reference internal" href="_images/iconParameter.png"><img alt="Parameter" src="_images/iconParameter.png" style="width: 19.05px; height: 19.2px;" /></a> to to be able to save your list.</p></li>
+<li><p>Name the liste of favoris</p></li>
+<li><p>Click on <a class="reference internal" href="_images/iconSave.png"><img alt="Save" src="_images/iconSave.png" style="width: 19.2px; height: 19.2px;" /></a> to save your list</p></li>
+<li><p>The list is stocked in the Saved favorite list table.</p></li>
+</ul>
+<figure class="align-default" id="id14">
+<img alt="Favorites list in project selector" src="_images/GUI_ZONE_FavoritesList.png" />
+<figcaption>
+<p><span class="caption-text">Favorites list in project selector</span><a class="headerlink" href="#id14" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<ul>
+<li><p>when a project favorites list is selected it is highlighted in the secondary color of your session.</p></li>
+<li><p>When the list of projects is limited to favorites, we also display recursively:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>visible parents of favorite projects</p></li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Be careful, we do not necessarily go back to the root but to the highest “visible” parent project.
+For example, if we have a structure P1=&gt;P1.1=&gt;P1.1.1=&gt;P1.1.1.1, if a CP is assigned to P1.1, it does not see P1, by checking P1.1.1.1 by favorite,
+we display P1.1 and P1.1.1 but not P1)</p>
+</div>
+<ul class="simple">
+<li><p>The visible subprojects of favorite projects whether they are favorites or not.</p></li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Same remark as above on the limit of visibility.</p>
+<figure class="align-default" id="id15">
+<img alt="Example display for project selector favorites" src="_images/GUI_ZONE_FavoritesExample.png" />
+<figcaption>
+<p><span class="caption-text">Example display for project selector favorites</span><a class="headerlink" href="#id15" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+</div>
+</div></blockquote>
+</li>
+<li><p>When the list of the project selector is restricted to favorites, deselecting a favorite project makes it disappear (refreshing the selector).</p></li>
+<li><p>When a favorites list is enabled, “all projects”, is replaced with “all favorite projects”. You can limit your list of favorites or display them in their entirety by clicking on this option. This will be the display default.</p></li>
+</ul>
+</div></blockquote>
+<div class="compound">
+<p>Enter the Archive Mode</p>
+<p>This option allows you to show te closed items.</p>
+<p>When archive mode is active, then icon <a class="reference internal" href="_images/iconHistArchive.png"><img alt="Button Archive" src="_images/iconHistArchive.png" style="width: 18.599999999999998px; height: 17.55px;" /></a> is displayed in the top bar. Click on it to stop the process.</p>
+<p>Archive mode allows you to see closed projects in the project selector.</p>
+<p>To display closed projects in the list area of the projects screen switch the button “closed”.</p>
+<p>This button is not visible when the archive mode is Off.</p>
+<p>Only the administrator can see this button permanently.</p>
+<img alt="_images/GUI_ZONE_ModeArchive.png" src="_images/GUI_ZONE_ModeArchive.png" />
+<p>When Archive mode is active, Projects lists on report parameters show closed projects.</p>
+</div>
+</div>
+<div class="compound">
+<p>Selector of the current item</p>
+<ul class="simple">
+<li><p>Click on the button <a class="reference internal" href="_images/iconProject.png"><img alt="Button icon project" src="_images/iconProject.png" style="width: 19.2px; height: 19.2px;" /></a> to select current project in the project selector.</p></li>
+<li><p>Click once, from any element to display in the selector the project linked to the element.</p></li>
+<li><p>Double click to display all projects again</p></li>
+</ul>
+</div>
+<div class="compound">
+<p>Project selector search</p>
+<p>Click on <a class="reference internal" href="_images/iconSearch.png"><img alt="button icon search" src="_images/iconSearch.png" style="width: 19.2px; height: 19.2px;" /></a> to search projects and subprojects from any screen with the same search functions as on the projects screen</p>
+<figure class="align-default" id="id16">
+<img alt="Project selector search mode" src="_images/GUI_BOX_ProjectSelectorSearch.png" />
+<figcaption>
+<p><span class="caption-text">Project selector search window</span><a class="headerlink" href="#id16" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+</div>
+<p class="rubric" id="name-topbar"><a class="reference internal" href="_images/fourBLC.png"><img alt="Four" src="_images/fourBLC.png" style="width: 18.0px; height: 18.0px;" /></a> Instance name</p>
+<p>you can rename the name of the ProjeQtOr instance via the global parameters in the View tab.</p>
+<p>See: <a class="reference internal" href="GlobalParameters.html#display"><span class="std std-ref">Tab Display</span></a></p>
+</section>
+<section id="infos-bar">
+<span id="infosbar"></span><h2>Infos bar<a class="headerlink" href="#infos-bar" title="Permalink to this heading">¶</a></h2>
+<figure class="align-center">
+<img alt="Top bar" src="_images/GUI_ZONE_InfosBar.png" />
+</figure>
+<aside class="topic">
+<p class="topic-title">Interface areas:</p>
+<p><a class="reference internal" href="_images/one.png"><img alt="One" src="_images/one.png" style="width: 18.0px; height: 18.0px;" /></a> <a class="reference internal" href="#cron-button"><span class="std std-ref">CRON button</span></a></p>
+<p><a class="reference internal" href="_images/two.png"><img alt="Two" src="_images/two.png" style="width: 18.0px; height: 18.0px;" /></a> <a class="reference internal" href="#version-button"><span class="std std-ref">Version button</span></a></p>
+<p><a class="reference internal" href="_images/three.png"><img alt="Three" src="_images/three.png" style="width: 18.0px; height: 18.0px;" /></a> <a class="reference internal" href="#about-menu"><span class="std std-ref">About menu</span></a></p>
+<p><a class="reference internal" href="_images/four.png"><img alt="Four" src="_images/four.png" style="width: 18.0px; height: 18.0px;" /></a> <a class="reference internal" href="#menu-display"><span class="std std-ref">Display layout</span></a></p>
+<p><a class="reference internal" href="_images/five.png"><img alt="Five" src="_images/five.png" style="width: 18.0px; height: 18.0px;" /></a> <a class="reference internal" href="#menu-session"><span class="std std-ref">Session menu</span></a></p>
+</aside>
+<p class="rubric" id="cron-button"><a class="reference internal" href="_images/oneBLC.png"><img alt="One" src="_images/oneBLC.png" style="width: 18.0px; height: 18.0px;" /></a> CRON button</p>
+<p>The CRON activation button allows you to quickly see if your CRON is launched or not.</p>
+<p>The button is only visible for Administrator profile.</p>
+<p><img alt="icon Cron Running" src="_images/iconCronRunning.png" /> the CRON is running</p>
+<p><img alt="icon Cron Demand" src="_images/iconCronPause.png" /> In request for closure. The next refresh turns it red.</p>
+<p><img alt="icon Cron stopped" src="_images/iconCronStopped.png" /> the CRON is stopped</p>
+<p>Click on the button to start or stop CRON in the same way as on the Administration page.</p>
+<p>See: <a class="reference internal" href="Administration.html#background-task"><span class="std std-ref">Background tasks</span></a></p>
+<p class="rubric" id="version-button"><a class="reference internal" href="_images/twoBLC.png"><img alt="Two" src="_images/twoBLC.png" style="width: 18.0px; height: 18.0px;" /></a> Version button</p>
+<p>Displays the version of ProjeQtOr installed</p>
+<p>Click on the button to access the site of ProjeQtOr.org</p>
+<p class="rubric" id="about-menu"><a class="reference internal" href="_images/threeBLC.png"><img alt="Three" src="_images/threeBLC.png" style="width: 18.0px; height: 18.0px;" /></a> About menu</p>
+<p>This menu allows you to have access to real-time information with a notification system for news.</p>
+<figure class="align-default" id="id17">
+<img alt="About menu" src="_images/GUI_BOX_AboutMenu.png" />
+<figcaption>
+<p><span class="caption-text">About menu</span><a class="headerlink" href="#id17" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<p>The button <img alt="icon Cron Demand" src="_images/reportBug_button.png" /> sends you to the forum of the ProjeQtOr site in order to post the possible anomaly.</p>
+<blockquote>
+<div><div class="compound">
+<p>Links</p>
+<p>The links indicated allow you to display:</p>
+<ul class="simple">
+<li><p>the software manual,</p></li>
+<li><p>the manual page concerning the keyboard shortcuts taken into account in ProjeQtOr,</p></li>
+<li><p>the version information on the external libraries used in ProjeQtOr.</p></li>
+</ul>
+</div>
+<div class="compound">
+<p>News</p>
+<p>Find all the information about ProjeQtOr in real time.</p>
+<p>Hover over the desired information with the mouse to preview it.</p>
+<p>Click to view full information.</p>
+<p>A navigation system allows you to consult all the information.</p>
+</div>
+<div class="compound">
+<p>Access</p>
+<p>Access ProjeQtOr’s plugin store and forum summary with just one click.</p>
+</div>
+</div></blockquote>
+<p class="rubric" id="menu-display"><a class="reference internal" href="_images/fourBLC.png"><img alt="Four" src="_images/fourBLC.png" style="width: 18.0px; height: 18.0px;" /></a> Screen layout</p>
+<p>The layout of the screens allows you to choose how you want to display the ProjeQtOr interface</p>
+<p>The arrangement not chosen appears in gray</p>
+<figure class="align-default" id="id18">
+<img alt="Screen layout" src="_images/GUI_ZONE_ScreenLayout.png" />
+<figcaption>
+<p><span class="caption-text">Screen layout</span><a class="headerlink" href="#id18" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<p>Many modes are available!</p>
+<blockquote>
+<div><div class="compound">
+<p><a class="reference internal" href="_images/iconChangeLayout.png"><img alt="Switch mode" src="_images/iconChangeLayout.png" style="width: 19.2px; height: 19.2px;" /></a> switched mode</p>
+<p>Allows to enable or disable switched mode that allows to switch between list and detail windows. Window selected is displayed in “full screen” mode.</p>
+<p>Hidden window are replaced by a gray bar. Click on the gray bar to switch between windows.</p>
+</div>
+<div class="compound">
+<p><a class="reference internal" href="_images/horizontalLayout.png"><img alt="Mode horizontal" src="_images/horizontalLayout.png" style="width: 19.2px; height: 19.2px;" /></a> Horizontal layout - <a class="reference internal" href="_images/verticalLayout.png"><img alt="Mode vertical" src="_images/verticalLayout.png" style="width: 19.2px; height: 19.2px;" /></a> vertical layout</p>
+<p>You have all the screens of the application in horizontal or vertical mode.</p>
+<p>You can uniquely arrange your screens by using the display icon in the <a class="reference internal" href="#tools-list"><span class="std std-ref">list box</span></a></p>
+<p>Horizontal mode shows the list box at the top of the screen and the details box at the bottom.</p>
+<p>Vertical mode shows the list box on the left of the screen and the details box on the right.</p>
+</div>
+<div class="compound">
+<p><a class="reference internal" href="_images/iconLayoutList.png"><img alt="Layout list" src="_images/iconLayoutList.png" style="width: 19.2px; height: 19.2px;" /></a> Mode List</p>
+<p>Column mode corresponds to the historical presentation of ProjeQtOr, where the different parts making up the details area are displayed in one, two or three columns</p>
+</div>
+<div class="compound">
+<p><a class="reference internal" href="_images/iconLayoutTab.png"><img alt="Layout tab" src="_images/iconLayoutTab.png" style="width: 19.2px; height: 19.2px;" /></a> Mode Tab</p>
+<p>The sections present in the columns are dispatched under tabs with the tab mode.</p>
+</div>
+<div class="compound">
+<p><a class="reference internal" href="_images/iconActivityStream.png"><img alt="Show Activity Stream" src="_images/iconActivityStream.png" style="width: 19.2px; height: 19.2px;" /></a> Show/Hide Activity Stream</p>
+<p>Show or hide globally (on all screens), the notes area for each element.</p>
+<p>To display notes only on a specific screen, choose <a class="reference internal" href="_images/iconActivityStream.png"><img alt="Show Activity Stream" src="_images/iconActivityStream.png" style="width: 19.2px; height: 19.2px;" /></a> from the details area toolbar.</p>
+<p>See: <a class="reference internal" href="TransverseFeatures.html#activity-stream"><span class="std std-ref">Activity stream</span></a></p>
+<p>See: <a class="reference internal" href="#gui-activity-stream"><span class="std std-ref">Tools details area</span></a></p>
+</div>
+<div class="compound">
+<p><a class="reference internal" href="_images/iconFullScreen.png"><img alt="Full screen" src="_images/iconFullScreen.png" style="width: 19.2px; height: 19.2px;" /></a> Full screen mode</p>
+<p>With this mode, you make your browser invisible, the menus, navigation bar, buttons … are hidden. You can enjoy your ProjeQtOr instance in full screen mode.</p>
+</div>
+</div></blockquote>
+<span class="target" id="menu-session"></span><p class="rubric" id="index-1"><a class="reference internal" href="_images/fiveBLC.png"><img alt="Five" src="_images/fiveBLC.png" style="width: 18.0px; height: 18.0px;" /></a> Session menu</p>
+<figure class="align-default" id="id19">
+<img alt="Session menu" src="_images/GUI_ZONE_SessionMenu.png" />
+<figcaption>
+<p><span class="caption-text">Session menu</span><a class="headerlink" href="#id19" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<p>The connection window offers some settings and information at user level.</p>
+<blockquote>
+<div><div class="compound">
+<p>Profile</p>
+<p>The profile section tells you:</p>
+<ul class="simple">
+<li><p>The common name in the software</p></li>
+<li><p>The connection identifier</p></li>
+<li><p>The profile assigned in the software with this account</p></li>
+<li><p>The organization to which the user belongs</p></li>
+<li><p>The team to which the user belongs</p></li>
+</ul>
+<p>You can assign a profile picture in the <a class="reference internal" href="UserParameter.html#photo"><span class="std std-ref">user parameters</span></a>.</p>
+</div>
+<div class="compound">
+<p>interface Parameters</p>
+<p>This section allow you to choose and modify at your leisure:</p>
+<ul class="simple">
+<li><p>the language of your personal session</p></li>
+<li><p>the time zone is automatically entered according to the settings of your computer</p></li>
+<li><p>the colors of your personal interface</p></li>
+<li><p>The brightness level for the background of the screens</p></li>
+<li><p>the home page which will be displayed when you log in</p></li>
+<li><p>The speed of the main menu animation</p></li>
+<li><p>the time in seconds for automatic list refreshing</p></li>
+</ul>
+</div>
+</div></blockquote>
+<p>Two buttons offer you direct links to:</p>
+<ul class="simple">
+<li><p>the page to change your password</p></li>
+<li><p>user settings page</p></li>
+</ul>
+<p>And it is in this window that you end your session using the disconnect button.</p>
+<p>These changes only impact your session and will apply over the global settings defined by your administrator.</p>
+<blockquote>
+<div><div class="compound">
+<p>Interface colors</p>
+<p>You choose two colors which will be declined thanks to subtle colorimetric games throughout the software.</p>
+<p>The main color corresponds to the color that will be displayed in the background of the menus, title and separation elements.</p>
+<p>The secondary color is applied for everything related to selection, navigation or position.</p>
+<blockquote>
+<div><div class="compound">
+<p>Color discs</p>
+<p>These discs are shortcuts for applying a color scheme. Basic four color discs are available including one with the original colors of ProjeQtOr.</p>
+<p>The other three discs are suggestions on our part.
+You can display your colors by saving them in the global settings on the Display tab.
+The next time you reconnect, the last color disc will have your colors.</p>
+</div>
+</div></blockquote>
+</div>
+<div class="compound">
+<p>brightness</p>
+<p>Adjust the background brightness of your interface.</p>
+<p>The brighter the brightness, the more white the background will be, move the cursor to dark to obtain the gray interface background.</p>
+</div>
+<div class="compound">
+<p>Menu speed</p>
+<p>You determine how the menu behaves as you navigate through it. When you set to fast then the animation between the menus will hardly be visible anymore.</p>
+</div>
+<div class="compound">
+<p>Auto refresh</p>
+<p>Item list boxes can refresh automatically.</p>
+<p>Choose how often list boxes are automatically refreshed.</p>
+</div>
+</div></blockquote>
+</section>
+<section id="custom-menu">
+<span id="custommenu"></span><h2>Custom Menu<a class="headerlink" href="#custom-menu" title="Permalink to this heading">¶</a></h2>
+<figure class="align-center" id="id20">
+<img alt="bookmarks bar" src="_images/GUI_ZONE_FavorisBar.png" />
+<figcaption>
+<p><span class="caption-text">Bookmarks Bar</span><a class="headerlink" href="#id20" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<aside class="topic">
+<p class="topic-title">Interface areas:</p>
+<p><a class="reference internal" href="_images/one.png"><img alt="One" src="_images/one.png" style="width: 18.0px; height: 18.0px;" /></a> <a class="reference internal" href="#newelement"><span class="std std-ref">New element</span></a></p>
+<p><a class="reference internal" href="_images/two.png"><img alt="Two" src="_images/two.png" style="width: 18.0px; height: 18.0px;" /></a> <a class="reference internal" href="#bookmarks"><span class="std std-ref">Bookmarks</span></a></p>
+<p><a class="reference internal" href="_images/three.png"><img alt="Three" src="_images/three.png" style="width: 18.0px; height: 18.0px;" /></a> <a class="reference internal" href="#recentbar"><span class="std std-ref">Recents</span></a></p>
+</aside>
+<p class="rubric" id="newelement"><a class="reference internal" href="_images/oneBLC.png"><img alt="One" src="_images/oneBLC.png" style="width: 18.0px; height: 18.0px;" /></a> New element</p>
+<p>This button allows you to quickly create a new element from any screen.</p>
+<figure class="align-default" id="id21">
+<img alt="Create a new element" src="_images/GUI_BOX_NewElement.png" />
+<figcaption>
+<p><span class="caption-text">Create a new element</span><a class="headerlink" href="#id21" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<p>You can create:</p>
+<ul class="simple">
+<li><p>a project</p></li>
+<li><p>a resource</p></li>
+<li><p>an activity</p></li>
+<li><p>a ticket</p></li>
+<li><p>a meeting</p></li>
+<li><p>a milestone</p></li>
+</ul>
+<p>The switch button “create on pop-up” allows you to define how to initiate the creation.</p>
+<p>If the button is activated, a pop-up opens over the current screen on the screen of the element you want to create.</p>
+<blockquote>
+<div><figure class="align-default" id="id22">
+<img alt="Create a new element" src="_images/GUI_BOX_PopUpCreateElement.png" />
+<figcaption>
+<p><span class="caption-text">Create a new element</span><a class="headerlink" href="#id22" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+</div></blockquote>
+<p>If the button is disabled, you go directly to the screen of the element you want to create.</p>
+<p class="rubric" id="bookmarks"><span id="index-2"></span><a class="reference internal" href="_images/twoBLC.png"><img alt="Two" src="_images/twoBLC.png" style="width: 18.0px; height: 18.0px;" /></a> Bookmarks</p>
+<p>you can mark certain screens and organize them in the favorites bars to create a personalized menu.</p>
+<p>You can create up to 5 favorite bars.</p>
+<p>Click on <a class="reference internal" href="_images/iconFavoris.png"><img alt="Bookmarks" src="_images/iconFavoris.png" style="width: 19.2px; height: 19.2px;" /></a> to display in the display zone the list of screens of the elements that you have put in favorites.</p>
+<figure class="align-default" id="id23">
+<img alt="Display bookmarks" src="_images/GUI_ZONE_DisplayFavoris.png" />
+<figcaption>
+<p><span class="caption-text">Display bookmarks</span><a class="headerlink" href="#id23" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<p>Right clicking on the display area allows you to display and organize the 5 favorite bars and choose how to display them.</p>
+<blockquote>
+<div><blockquote>
+<div><div class="compound">
+<p><a class="reference internal" href="_images/iconFavorisTxt.png"><img alt="Bookmarks text" src="_images/iconFavorisTxt.png" style="width: 19.2px; height: 19.2px;" /></a> Bookmarks text</p>
+<p>You view bookmarks in text mode only</p>
+<figure class="align-default">
+<img alt="_images/GUI_ZONE_FavorisTXT.png" src="_images/GUI_ZONE_FavorisTXT.png" />
+</figure>
+</div>
+<div class="compound">
+<p><a class="reference internal" href="_images/iconFavorisIcon.png"><img alt="Bookmarks icon" src="_images/iconFavorisIcon.png" style="width: 19.2px; height: 19.2px;" /></a> Bookmarks icon</p>
+<p>You display bookmarks in icon mode only</p>
+<figure class="align-default">
+<img alt="_images/GUI_ZONE_FavorisIMG.png" src="_images/GUI_ZONE_FavorisIMG.png" />
+</figure>
+</div>
+<div class="compound">
+<p><a class="reference internal" href="_images/iconFavorisIconTxt.png"><img alt="Bookmarks icon and text" src="_images/iconFavorisIconTxt.png" style="width: 19.2px; height: 19.2px;" /></a> Bookmarks icon and text</p>
+<p>You display bookmarks with icon and text</p>
+<figure class="align-default">
+<img alt="_images/GUI_ZONE_FavorisIMGTXT.png" src="_images/GUI_ZONE_FavorisIMGTXT.png" />
+</figure>
+<p>The number displayed corresponds to the number of the favorites bar on which you are.</p>
+<p>To change bookmarks bar, use your mouse wheel when you are positioned on the bar.</p>
+<p>Or click on the up and down navigation arrows at the right end of the bar.</p>
+</div>
+</div></blockquote>
+<div class="compound">
+<p>Add, Organize and remove bookmarks</p>
+<p>To add a bookmarks, click on the star to the right of each menu screen</p>
+<img alt="_images/GUI_ZONE_StarBookmark.png" src="_images/GUI_ZONE_StarBookmark.png" />
+<p>The star is filled with the secondary color of your interface once added to the favorites bar</p>
+<img alt="_images/GUI_ZONE_StarBookmarkFiled.png" src="_images/GUI_ZONE_StarBookmarkFiled.png" />
+<p>To organize your favorites, right click on the bar or click on <a class="reference internal" href="_images/iconEdit.png"><img alt="Button edit" src="_images/iconEdit.png" style="width: 19.2px; height: 19.2px;" /></a> to display your 5 bars, then click and drag and drop the screens to the desired bars.</p>
+<img alt="_images/GUI_ZONE_DragDrop.png" src="_images/GUI_ZONE_DragDrop.png" />
+<p>A green bar tells you that you can drop the favorites from your screen, a red bar tells you that it is impossible.</p>
+<p>To remove a bookmark, right click on the bookmark and clik on the button remove from the custom menu bar</p>
+<img alt="_images/GUI_BOX_RemoveBookmark.png" src="_images/GUI_BOX_RemoveBookmark.png" />
+<p>You can put the same bookmark on several bars. <kbd class="kbd compound docutils literal notranslate"><kbd class="kbd docutils literal notranslate">Ctrl</kbd> <kbd class="kbd docutils literal notranslate">click</kbd></kbd> on the favorite and drag and drop to another bar.</p>
+<p>The favorite will be duplicate.</p>
+</div>
+</div></blockquote>
+<p class="rubric" id="recentbar"><a class="reference internal" href="_images/threeBLC.png"><img alt="Three" src="_images/threeBLC.png" style="width: 18.0px; height: 18.0px;" /></a> Recents bar</p>
+<p>The recent screens bar allows you to keep in memory the screens you have browsed since the connection.
+It acts like a kind of limited history.</p>
+<figure class="align-default" id="id24">
+<img alt="Recent bar" src="_images/GUI_ZONE_Recent.png" />
+<figcaption>
+<p><span class="caption-text">Recent bar</span><a class="headerlink" href="#id24" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<p>Indeed, the number of recent screens depends on your screen resolution.
+for example: between 12 and 16 screens displayed for a 2K screen and between 6 and 10 for an HD screen.</p>
+</section>
+<section id="menu">
+<span id="id2"></span><h2>Menu<a class="headerlink" href="#menu" title="Permalink to this heading">¶</a></h2>
+<figure class="align-center" id="id25">
+<img alt="Menu" src="_images/GUI_ZONE_Menu.png" />
+<figcaption>
+<p><span class="caption-text">Menu</span><a class="headerlink" href="#id25" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<aside class="topic">
+<p class="topic-title">Interface areas:</p>
+<p><a class="reference internal" href="_images/one.png"><img alt="One" src="_images/one.png" style="width: 18.0px; height: 18.0px;" /></a> <a class="reference internal" href="#mainmenu"><span class="std std-ref">Main menu</span></a></p>
+<p><a class="reference internal" href="_images/two.png"><img alt="Two" src="_images/two.png" style="width: 18.0px; height: 18.0px;" /></a> <a class="reference internal" href="#section-indication"><span class="std std-ref">Section indication</span></a></p>
+<p><a class="reference internal" href="_images/three.png"><img alt="Three" src="_images/three.png" style="width: 18.0px; height: 18.0px;" /></a> <a class="reference internal" href="#breadcrumb"><span class="std std-ref">Breadcrumb</span></a></p>
+<p><a class="reference internal" href="_images/four.png"><img alt="Four" src="_images/four.png" style="width: 18.0px; height: 18.0px;" /></a> <a class="reference internal" href="#showmenu"><span class="std std-ref">Show / Hide menu</span></a></p>
+<p><a class="reference internal" href="_images/five.png"><img alt="Five" src="_images/five.png" style="width: 18.0px; height: 18.0px;" /></a> <a class="reference internal" href="#search-menu"><span class="std std-ref">Search menu</span></a></p>
+</aside>
+<p class="rubric" id="mainmenu"><a class="reference internal" href="_images/oneBLC.png"><img alt="One" src="_images/oneBLC.png" style="width: 18.0px; height: 18.0px;" /></a> Main menu</p>
+<p>The menu takes up the overall scope of project management.
+Each section represents a part of this perimeter.</p>
+<p>The menu is designed to highlight the main screens in each section. These are often the screens most used by project management professionals.</p>
+<p>The secondary screens appear under sub-menus and the navigation is deeper.</p>
+<p class="rubric" id="section-indication"><a class="reference internal" href="_images/twoBLC.png"><img alt="Two" src="_images/twoBLC.png" style="width: 18.0px; height: 18.0px;" /></a> Section indication</p>
+<p>When browsing, each time you select a section or subsection, the icon corresponding to the latter is displayed in this area.</p>
+<p class="rubric" id="breadcrumb"><a class="reference internal" href="_images/threeBLC.png"><img alt="Three" src="_images/threeBLC.png" style="width: 18.0px; height: 18.0px;" /></a> Breadcrumb</p>
+<p>Breadcrumb generally refers to the breadcrumb trail of website navigation.</p>
+<p>This item tells the user where they are in the menu hierarchy.</p>
+<p>In ProjeQtOr, the Breadcrum shows you the previous section of the one where you are.</p>
+<p>By clicking on the breadcrumb, you return to the mother section, until you reach the reception.</p>
+<p class="rubric" id="showmenu"><a class="reference internal" href="_images/fourBLC.png"><img alt="Four" src="_images/fourBLC.png" style="width: 18.0px; height: 18.0px;" /></a> Show / Hide menu</p>
+<p>Click on <a class="reference internal" href="_images/iconHideMenuLeft.png"><img alt="Hide menu" src="_images/iconHideMenuLeft.png" style="width: 19.2px; height: 19.2px;" /></a> to hide the menu</p>
+<p>Click on <a class="reference internal" href="_images/iconHideMenuRight.png"><img alt="Show menu" src="_images/iconHideMenuRight.png" style="width: 19.2px; height: 19.2px;" /></a> to bring up the menu</p>
+<p class="rubric" id="search-menu"><a class="reference internal" href="_images/fiveBLC.png"><img alt="Five" src="_images/fiveBLC.png" style="width: 18.0px; height: 18.0px;" /></a> Search menu</p>
+<p>You have the possibility to do a search directly in the menu.</p>
+<p>The search takes into account the name of the element screens, but also certain tags, which do not know how to be enriched.</p>
+<figure class="align-default" id="id26">
+<img alt="Search with tags" src="_images/GUI_ZONE_SearchTag.png" />
+<figcaption>
+<p><span class="caption-text">Search performed with the tag GANTT</span><a class="headerlink" href="#id26" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<p>The search also allows you to display the reports related to the keywords entered in a separate section.</p>
+<p>When you click on a screen resulting from your search, the screen is displayed but you do not change the section in the menu, which allows you to return at any time to the screens of the section where you were.</p>
+<p>To return to your section after a search, click the reset icon in the search field.</p>
+</section>
+<section id="secondary-menu">
+<span id="id3"></span><h2>Secondary Menu<a class="headerlink" href="#secondary-menu" title="Permalink to this heading">¶</a></h2>
+<p>The secondary menu can be seen as the right hand side of the menu.</p>
+<p>It allows you to display a lot of information about your project, your navigation or your organization.</p>
+<figure class="align-center" id="id27">
+<img alt="Menu" src="_images/GUI_ZONE_SecondaryMenu.png" />
+<figcaption>
+<p><span class="caption-text">Menu</span><a class="headerlink" href="#id27" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<aside class="topic">
+<p class="topic-title">Interface areas:</p>
+<p><a class="reference internal" href="_images/one.png"><img alt="One" src="_images/one.png" style="width: 18.0px; height: 18.0px;" /></a> <a class="reference internal" href="#secondarymenu-parameters"><span class="std std-ref">Parameters</span></a></p>
+<p><a class="reference internal" href="_images/two.png"><img alt="Two" src="_images/two.png" style="width: 18.0px; height: 18.0px;" /></a> <a class="reference internal" href="#secondarymenu-links"><span class="std std-ref">Links</span></a></p>
+<p><a class="reference internal" href="_images/three.png"><img alt="Three" src="_images/three.png" style="width: 18.0px; height: 18.0px;" /></a> <a class="reference internal" href="#secondarymenu-docs"><span class="std std-ref">Repertory and Document</span></a></p>
+<p><a class="reference internal" href="_images/four.png"><img alt="Four" src="_images/four.png" style="width: 18.0px; height: 18.0px;" /></a> <a class="reference internal" href="#secondarymenu-console"><span class="std std-ref">Console</span></a></p>
+<p><a class="reference internal" href="_images/five.png"><img alt="Five" src="_images/five.png" style="width: 18.0px; height: 18.0px;" /></a> <a class="reference internal" href="#secondarymenu-notifications"><span class="std std-ref">Notifications</span></a></p>
+</aside>
+<p class="rubric" id="secondarymenu-parameters"><a class="reference internal" href="_images/oneBLC.png"><img alt="One" src="_images/oneBLC.png" style="width: 18.0px; height: 18.0px;" /></a> Parameters</p>
+<p>the parameters displayed in the secondary menu are linked to the selected screen.</p>
+<p>In the example above, the user selected the Activity screen.
+We then see that the parameters are in direct correlation with the activities.</p>
+<p>If the user selects the project screen, then the parameters will be adapted for those.</p>
+<img alt="_images/GUI_ZONE_SecondaryMenuProject.png" src="_images/GUI_ZONE_SecondaryMenuProject.png" />
+<p class="rubric" id="secondarymenu-links"><a class="reference internal" href="_images/twoBLC.png"><img alt="Two" src="_images/twoBLC.png" style="width: 18.0px; height: 18.0px;" /></a> Links</p>
+<p>Display hyperlinks to remote web pages.</p>
+<p>These links are defined as hyperlink attachments on projects.</p>
+<p>Links displayed here depend on the selected project.</p>
+<img alt="_images/GUI_ZONE_SecondaryMenuLinks.png" src="_images/GUI_ZONE_SecondaryMenuLinks.png" />
+<p class="rubric" id="secondarymenu-docs"><a class="reference internal" href="_images/threeBLC.png"><img alt="Three" src="_images/threeBLC.png" style="width: 18.0px; height: 18.0px;" /></a> Repertory and Document</p>
+<p>Document directories give direct access to documents contained in the directory.</p>
+<p>See also: <a class="reference internal" href="Document.html#document-directory"><span class="std std-ref">Document directories</span></a> screen.</p>
+<img alt="_images/GUI_ZONE_SecondaryMenuDocs.png" src="_images/GUI_ZONE_SecondaryMenuDocs.png" />
+<p class="rubric" id="secondarymenu-console"><a class="reference internal" href="_images/fourBLC.png"><img alt="Four" src="_images/fourBLC.png" style="width: 18.0px; height: 18.0px;" /></a> Console</p>
+<p>Displays information about main actions: insert, update, delete.</p>
+<p>The timestamp indicates when the action was done.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Messages displayed here are not stored and will be flushed when user logout.</p>
+</div>
+<img alt="_images/GUI_ZONE_SecondaryMenuConsole.png" src="_images/GUI_ZONE_SecondaryMenuConsole.png" />
+<p class="rubric" id="secondarymenu-notifications"><a class="reference internal" href="_images/fiveBLC.png"><img alt="Five" src="_images/fiveBLC.png" style="width: 18.0px; height: 18.0px;" /></a> Notifications</p>
+<p>In the secondary menu</p>
+<blockquote>
+<div><figure class="align-default" id="id28">
+<img alt="notification area" src="_images/CONTROLAUTO_ZONE_NotifRecap.png" />
+<figcaption>
+<p><span class="caption-text">Notifications</span><a class="headerlink" href="#id28" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<p>A tree whose title indicates the number of unread notifications intended for the user.</p>
+<p><strong>This tree has the following levels:</strong></p>
+<ul class="simple">
+<li><p>Level 1: The types of notifications</p></li>
+<li><p>Level 2: The trigger for notifications</p></li>
+<li><p>Level 3: The Notification Definition to Product Notifications</p></li>
+<li><p>Level 4: The id of the element that generated the notification. Allows direct access to the item.</p></li>
+</ul>
+<p>The icon <a class="reference internal" href="_images/iconRefresh.png"><img alt="Refresh" src="_images/iconRefresh.png" style="width: 19.2px; height: 19.2px;" /></a> allows you to refresh notifications without waiting for the scheduled update.</p>
+<p>The icon <a class="reference internal" href="_images/iconNotification.png"><img alt="Notification" src="_images/iconNotification.png" style="width: 19.2px; height: 19.2px;" /></a> provides direct access to the notifications screen.</p>
+<p>Numbers indicate the number of unread notifications</p>
+</div></blockquote>
+</section>
+<section id="list-area">
+<span id="list-window"></span><h2>List Area<a class="headerlink" href="#list-area" title="Permalink to this heading">¶</a></h2>
+<figure class="align-center">
+<img alt="List window" src="_images/GUI_ZONE_ListWindows.png" />
+</figure>
+<aside class="topic">
+<p class="topic-title">Interface areas:</p>
+<p><a class="reference internal" href="_images/one.png"><img alt="One" src="_images/one.png" style="width: 18.0px; height: 18.0px;" /></a> <a class="reference internal" href="#element-identifier"><span class="std std-ref">Element identifier</span></a></p>
+<p><a class="reference internal" href="_images/two.png"><img alt="Two" src="_images/two.png" style="width: 18.0px; height: 18.0px;" /></a> <a class="reference internal" href="#tools-list"><span class="std std-ref">Tools</span></a></p>
+<p><a class="reference internal" href="_images/three.png"><img alt="Three" src="_images/three.png" style="width: 18.0px; height: 18.0px;" /></a> <a class="reference internal" href="#items-list"><span class="std std-ref">Items list</span></a></p>
+</aside>
+<p class="rubric" id="element-identifier"><a class="reference internal" href="_images/oneBLC.png"><img alt="One" src="_images/oneBLC.png" style="width: 18.0px; height: 18.0px;" /></a> Element identifier</p>
+<p>Displays the element name and the count of items in the list.</p>
+<p>Each element is identified with a distinctive icon.</p>
+<p>Click a column header to sort the list on that column (first ascending, then descending).</p>
+<p>Sorting is not always on the name displayed.</p>
+<p>If the sorted column is linked to a reference list with sort order value, the sorting is executed on this sort value.</p>
+<p>Sorting on the “Status” allows to sort values such as defined in the workflow.</p>
+<p>Click on a line (any column) will display the corresponding item in the detail area.</p>
+<p class="rubric" id="tools-list"><a class="reference internal" href="_images/twoBLC.png"><img alt="Two" src="_images/twoBLC.png" style="width: 18.0px; height: 18.0px;" /></a> Tools</p>
+<figure class="align-center">
+<img alt="List window" src="_images/GUI_ZONE_ToolsList.png" />
+</figure>
+<ul class="simple">
+<li><p>Click on <a class="reference internal" href="_images/iconNew.png"><img alt="New" src="_images/iconNew.png" style="width: 19.2px; height: 19.2px;" /></a> to create a new element</p></li>
+<li><p>Click on <a class="reference internal" href="_images/iconRefresh.png"><img alt="Refresh" src="_images/iconRefresh.png" style="width: 19.2px; height: 19.2px;" /></a> to refresh the list</p></li>
+<li><p>Click on <a class="reference internal" href="_images/iconRefreshAuto.png"><img alt="Token" src="_images/iconRefreshAuto.png" style="width: 19.2px; height: 19.2px;" /></a> <a class="reference internal" href="#refresh-auto"><span class="std std-ref">to automatically refresh the list</span></a></p></li>
+<li><p>Click on <a class="reference internal" href="_images/iconFilters.png"><img alt="Filters" src="_images/iconFilters.png" style="width: 19.2px; height: 19.2px;" /></a> <a class="reference internal" href="#filters"><span class="std std-ref">to apply many filters</span></a></p></li>
+<li><p>Click on <a class="reference internal" href="_images/iconColumns.png"><img alt="Columns organizer" src="_images/iconColumns.png" style="width: 19.2px; height: 19.2px;" /></a> <a class="reference internal" href="#columns"><span class="std std-ref">to organize the columns</span></a></p></li>
+<li><p>Click on <a class="reference internal" href="_images/iconSubMenu.png"><img alt="Sub-menu" src="_images/iconSubMenu.png" style="width: 19.2px; height: 19.2px;" /></a> to open the sub-menu</p></li>
+<li><p>Click on <a class="reference internal" href="_images/iconPrint.png"><img alt="Print" src="_images/iconPrint.png" style="width: 19.2px; height: 19.2px;" /></a> to print the list area as it appear on the window</p></li>
+<li><p>Click on <a class="reference internal" href="_images/iconPDF.png"><img alt="Export PDF" src="_images/iconPDF.png" style="width: 19.2px; height: 19.2px;" /></a> <a class="reference internal" href="#exportpdf"><span class="std std-ref">to export the list area to PDF</span></a></p></li>
+<li><p>Click on <a class="reference internal" href="_images/iconCSV.png"><img alt="Export CSV" src="_images/iconCSV.png" style="width: 19.2px; height: 19.2px;" /></a> <a class="reference internal" href="#exportcsv"><span class="std std-ref">to export the list area to CSV</span></a></p></li>
+<li><p>Click on <a class="reference internal" href="_images/iconMultipleUpdate.png"><img alt="Multiple update" src="_images/iconMultipleUpdate.png" style="width: 19.2px; height: 19.2px;" /></a> <a class="reference internal" href="#multipleupdate"><span class="std std-ref">to open the multiple update</span></a></p></li>
+<li><p>Click on <a class="reference internal" href="_images/verticalLayout.png"><img alt="Mode vertical" src="_images/verticalLayout.png" style="width: 19.2px; height: 19.2px;" /></a> <a class="reference internal" href="#menu-display"><span class="std std-ref">to display this screen vertically or horizontally only</span></a></p></li>
+</ul>
+<p>Swith the button clos to make appear all the In progress element</p>
+<blockquote id="refresh-auto">
+<div><div class="compound">
+<p><a class="reference internal" href="_images/iconRefreshAuto.png"><img alt="Token" src="_images/iconRefreshAuto.png" style="width: 19.2px; height: 19.2px;" /></a> Automatically refresh the list</p>
+<p>Item list boxes can refresh automatically.</p>
+<p>Choose in the connexion menu how often list boxes are automatically refreshed.</p>
+<p>See: <a class="reference internal" href="#menu-session"><span class="std std-ref">Session menu</span></a></p>
+</div>
+</div></blockquote>
+<blockquote id="filters">
+<div><div class="compound">
+<p><a class="reference internal" href="_images/iconFilters.png"><img alt="Filters" src="_images/iconFilters.png" style="width: 19.2px; height: 19.2px;" /></a> The filters</p>
+<figure class="align-default" id="id29">
+<img alt="Filters" src="_images/GUI_BOX_Filters.png" />
+<figcaption>
+<p><span class="caption-text">Filters windows</span><a class="headerlink" href="#id29" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<p>The first filters offered are basic filters.</p>
+<blockquote>
+<div><div class="compound">
+<p>The rapid filters</p>
+<p>You can choose to always display them in the toolbar of the list box by activating the switch button.</p>
+<figure class="align-default" id="id30">
+<img alt="Filters always visible" src="_images/GUI_ZONE_FiltersVisible.png" />
+<figcaption>
+<p><span class="caption-text">Filters always visible</span><a class="headerlink" href="#id30" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<p>You can choose to always display them in the toolbar of the list box by activating the switch button.</p>
+<p>You can restrict the display:</p>
+<ul class="simple">
+<li><p>by ID</p></li>
+<li><p>by name</p></li>
+<li><p>by type</p></li>
+</ul>
+</div>
+<div class="compound">
+<p>The Quick search</p>
+<p>fill in the quick search field then click on the magnifying glass to launch the search in all the available fields of the list box AND details.</p>
+<p>Click the reset button to clear your search and restore the original display.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Accents are not taken into account</p>
+</div>
+</div>
+<div class="compound">
+<p>Status filters</p>
+<p>Switch the button <strong>Display states to filter directly</strong></p>
+<figure class="align-default" id="id31">
+<img alt="States filter" src="_images/GUI_ZONE_StateFilters.png" />
+<figcaption>
+<p><span class="caption-text">Status filter</span><a class="headerlink" href="#id31" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<p>Only existing status are visible if their are used.</p>
+<p>Choice one of them and the item list will be filter.</p>
+<p>This is a quick filter list by status.</p>
+</div>
+<div class="compound">
+<p>The advanced filters</p>
+<p>Click on the button to display the advanced filters window.</p>
+<figure class="align-default" id="id32">
+<img alt="Advanced filters" src="_images/GUI_BOX_AdvancedFilters.png" />
+<figcaption>
+<p><span class="caption-text">Advanced filters definition</span><a class="headerlink" href="#id32" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<p>Several sections are available</p>
+<blockquote>
+<div><div class="compound">
+<p>Active filter</p>
+<p>Define the clauses of filter or sort in “Add a filter or sort clause”.</p>
+<p>Select the name of the field, the operator and the value to the clause.</p>
+<ul>
+<li><p>Click on <a class="reference internal" href="_images/iconAdd.png"><img alt="Add" src="_images/iconAdd.png" style="width: 19.2px; height: 19.2px;" /></a> to add additional criteria.</p></li>
+<li><p>Name the filter to save and click on <a class="reference internal" href="_images/iconSave.png"><img alt="Save" src="_images/iconSave.png" style="width: 19.2px; height: 19.2px;" /></a> for later reuse.</p></li>
+<li><p>Click on <a class="reference internal" href="_images/iconSearch.png"><img alt="button icon search" src="_images/iconSearch.png" style="width: 19.2px; height: 19.2px;" /></a> to filter the filter list.</p></li>
+<li><p>Click on OK button to apply the filter.</p></li>
+<li><p>Click on Cancel button to revert to previous filter.</p></li>
+<li><p>Click on Clear button to reset the active filter.</p>
+<blockquote>
+<div><div class="compound">
+<p>Logical operator</p>
+<p>Possibility to select the logical operator OR between the criteria of a filter instead of AND.</p>
+<p>Applies logical operator with preceeding criteria (by default AND).</p>
+<p>Be careful, operator AND is applies before OR.</p>
+</div>
+<div class="compound">
+<p>Dynamic value</p>
+<p>When the selected value is dynamic, then you do not select anything in the list.</p>
+<p>The value will then be entered when the filter is called and will be fully activated when the filter is chosen.</p>
+</div>
+</div></blockquote>
+</li>
+</ul>
+</div>
+<div class="compound">
+<p>Saved filters</p>
+<p>This section allows to manage saved filters.</p>
+<ul class="simple">
+<li><p>Click on a saved filter to retrieve its definition.</p></li>
+<li><p>Click on <a class="reference internal" href="_images/iconDelete.png"><img alt="Delete" src="_images/iconDelete.png" style="width: 19.2px; height: 19.2px;" /></a> from a saved filter to delete it.</p></li>
+<li><p>Click on <a class="reference internal" href="_images/iconDrag.png"><img alt="Drag" src="_images/iconDrag.png" style="width: 19.2px; height: 19.2px;" /></a> to reorganize the filters.</p></li>
+<li><p>Click on <a class="reference internal" href="_images/iconShare.png"><img alt="Share" src="_images/iconShare.png" style="width: 19.2px; height: 19.2px;" /></a> to shared a filter with your employees</p></li>
+</ul>
+<p>When your collaborators share filters, they appear below the list of saved filters.</p>
+<p>Click on the list to display all filters and their author.</p>
+<figure class="align-default" id="id33">
+<img alt="Shared filters" src="_images/GUI_ZONE_SharedFilters.png" />
+<figcaption>
+<p><span class="caption-text">Shared filters</span><a class="headerlink" href="#id33" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+</div>
+<div class="compound">
+<p>List of filters</p>
+<p>The filter list allows to select a stored filter.</p>
+<p>To see the filter list, move the cursor over the advanced filter icon.</p>
+<figure class="align-default" id="id34">
+<img alt="List of filters" src="_images/GUI_BOX_FiltersList.png" />
+<figcaption>
+<p><span class="caption-text">List of filters</span><a class="headerlink" href="#id34" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<ul class="simple">
+<li><p>Click on the filter name to apply.</p></li>
+<li><p>Click on <strong>no filter clause</strong> to reset the filter.</p></li>
+</ul>
+</div>
+</div></blockquote>
+</div>
+</div></blockquote>
+</div>
+</div></blockquote>
+<blockquote id="columns">
+<div><div class="compound">
+<p><a class="reference internal" href="_images/iconColumns.png"><img alt="Columns organizer" src="_images/iconColumns.png" style="width: 19.2px; height: 19.2px;" /></a> The columns</p>
+<p>You can define which columns you want to display in the list area for the selected item.</p>
+<figure class="align-default" id="id35">
+<img alt="Columns Organizer" src="_images/GUI_BOX_Columns.png" />
+<figcaption>
+<p><span class="caption-text">Columns Organizer</span><a class="headerlink" href="#id35" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<p>The identifier and the name of the selected element are mandatory fields. They cannot be removed from view.</p>
+<p>The display of columns can be defined by and for the user or it can be applied by default for a particular user.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Use the switches to select or deselect the columns to display.</p></li>
+<li><p>Click on OK button to apply changes.</p></li>
+<li><p>Click on Reset button to reset the list to its default format.</p></li>
+<li><p>Click on “ To Manage” button to save column layouts.</p></li>
+</ul>
+</div></blockquote>
+<p>The applied definition will be automatically retrieved at the next connection.</p>
+<blockquote>
+<div><div class="compound">
+<p>Column order</p>
+<p>You can move columns using the handles in front of the column name. Click drag to where you want to drop it.</p>
+<figure class="align-default" id="id36">
+<img alt="Drag and drop to move columns" src="_images/GUI_ZONE_ColumnDrag&amp;Drop.png" />
+<figcaption>
+<p><span class="caption-text">Drag and drop to move columns</span><a class="headerlink" href="#id36" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<p>You can move columns directly from the list area.</p>
+<figure class="align-default" id="id37">
+<img alt="dragged and dropped on list box columns" src="_images/GUI_ZONE_DragDropOnColumn.png" />
+<figcaption>
+<p><span class="caption-text">Dragged and dropped on list area columns</span><a class="headerlink" href="#id37" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<p>Click on the column to move and drag and drop where you want it. The icon shows you with an arrow where the column will be placed</p>
+</div>
+<div class="compound">
+<p>Column size</p>
+<p>Use the arrows to the right of the column name to increase or decrease the column width.</p>
+<p>The width is in % of the total width of the list. The width of the field is automatically adjusted so that the total width of the list is 100%.</p>
+<p>The minimum width is 10% and the maximum width is 50%.</p>
+<p>You can also position your mouse between two columns and drag to change the width of the selected column.</p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p><strong>Total width greater than 100%</strong></p>
+<ul class="simple">
+<li><p>The total width should be limited to 100% maximum.</p></li>
+<li><p>The overrun will be highlighted next to the buttons.</p></li>
+<li><p>This may cause strange display, across page width, list, reports and PDF export, depending on the browser.</p></li>
+</ul>
+</div>
+</div>
+<div class="compound">
+<p>Columns layout</p>
+<blockquote>
+<div><p>You can save different column layouts according to your needs for the same element.</p>
+<ul class="simple">
+<li><p>Start by selecting the columns you want to put in one of the saved layouts.</p></li>
+<li><p>Then, click on the “To manage” button to open the pop-up to save the current layout.</p></li>
+</ul>
+<figure class="align-default" id="id38">
+<img alt="Layout Management window" src="_images/GUI_BOX_Layouts.png" />
+<figcaption>
+<p><span class="caption-text">Layout Management window</span><a class="headerlink" href="#id38" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<ul class="simple">
+<li><p>Name the layout and click on <a class="reference internal" href="_images/iconSave.png"><img alt="Save" src="_images/iconSave.png" style="width: 19.2px; height: 19.2px;" /></a> to save your layout to the list of advanced stored layouts</p></li>
+<li><p>Click on <a class="reference internal" href="_images/iconDelete.png"><img alt="Delete" src="_images/iconDelete.png" style="width: 19.2px; height: 19.2px;" /></a> to delete a layout</p></li>
+<li><p>Click on <a class="reference internal" href="_images/iconShare.png"><img alt="Share" src="_images/iconShare.png" style="width: 19.2px; height: 19.2px;" /></a> to share the saved layout.</p></li>
+<li><p>Click on the name of the layout to select it and display the columns relating to it in the list area.</p></li>
+</ul>
+</div></blockquote>
+<div class="compound">
+<p>Shared layout</p>
+<p>Shared layouts will be visible in the layout management pop-up.</p>
+<figure class="align-default" id="id39">
+<img alt="Shared layout drop-down list" src="_images/GUI_ZONE_ColumnLayoutShared.png" />
+<figcaption>
+<p><span class="caption-text">Shared layout drop-down list</span><a class="headerlink" href="#id39" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<p>Each layout is presented under the name of the user who created and shared it</p>
+</div>
+<div class="compound">
+<p>Assign layout</p>
+<p>You can assign a layout to one or more users depending on your rights.</p>
+<p>Select the layout you want to assign by clicking on the handle in front of the name.</p>
+<p>Click on the “attribute” button to assign a layout to a user.</p>
+<figure class="align-default" id="id40">
+<img alt="Assignment popup for a layout" src="_images/GUI_BOX_AssigningLayouts.png" />
+<figcaption>
+<p><span class="caption-text">Assignment popup for a layout</span><a class="headerlink" href="#id40" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<p>Drag and drop from left to right the users who will be assigned the layout</p>
+<p>It is possible to register selected users in a group.</p>
+<p>Name the group in this dedicated field “save a group”.</p>
+<p>Click on <a class="reference internal" href="_images/iconSave.png"><img alt="Save" src="_images/iconSave.png" style="width: 19.2px; height: 19.2px;" /></a> to save the group.</p>
+<p>Click on <a class="reference internal" href="_images/iconDelete.png"><img alt="Delete" src="_images/iconDelete.png" style="width: 19.2px; height: 19.2px;" /></a> to delete the group</p>
+<p>Once saved, you can retrieve the groups from the “remind group” dropdown.</p>
+<p><strong>Options</strong></p>
+<p>Switch the options you are interested in to reapply this layout to each new connection or to assign the selected layout to each new user</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>See the <a class="reference internal" href="AccessRights.html#specific-access-right"><span class="std std-ref">acces right</span></a></p>
+</div>
+</div>
+</div>
+</div></blockquote>
+</div>
+</div></blockquote>
+<blockquote id="exportpdf">
+<div><div class="compound">
+<p><a class="reference internal" href="_images/iconPDF.png"><img alt="Export PDF" src="_images/iconPDF.png" style="width: 19.2px; height: 19.2px;" /></a> Export to PDF format</p>
+<p>Allows to export data of list to PDF format.</p>
+<p>Export contains all details and links between tasks.</p>
+<p>Export can be done horizontally (landscape) or vertically (portrait) in A4 and / or A3 format with high quality of details</p>
+</div>
+</div></blockquote>
+<blockquote id="exportcsv">
+<div><div class="compound">
+<p><a class="reference internal" href="_images/iconCSV.png"><img alt="Export CSV" src="_images/iconCSV.png" style="width: 19.2px; height: 19.2px;" /></a> Export to CSV format</p>
+<p>This functionality allows to export data of list in a CSV file.</p>
+<p>The fields are regrouped and presented in the order as they appear in the item description.</p>
+<ul class="simple">
+<li><p>Click on <strong>OK</strong> button to export data.</p></li>
+<li><p>Click on <strong>Cancel</strong> button to close the dialog box.</p></li>
+</ul>
+<p>The export definition is defined for each user.</p>
+<p>The same definition can be applied in the next export.</p>
+<figure class="align-center" id="id41">
+<img alt="Dialog box - Export" src="_images/GUI_BOX_Export.png" />
+<figcaption>
+<p><span class="caption-text">Dialog box - Export</span><a class="headerlink" href="#id41" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<ul class="simple">
+<li><p>Use the checkbox to select or unselect all fields.</p></li>
+<li><p>Click on <strong>Select list columns</strong> button to restrict selected fields to the ones that are currently displayed in the list.</p></li>
+<li><p>For fields that reference another item, you can select to export either the id or the clear name for the referenced item.</p></li>
+<li><p>Box checked indicating that HTML tags in a long text field will be kept during export.</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong>Import Datas</strong></p>
+<p>The active filter defined will be applied to export data.</p>
+<p>The CSV exported files can directly be imported through the import functionality.</p>
+<p>See: <a class="reference internal" href="Tools.html#import-data"><span class="std std-ref">Import data</span></a></p>
+</div>
+</div>
+</div></blockquote>
+<blockquote id="multipleupdate">
+<div><div class="compound">
+<p><a class="reference internal" href="_images/iconMultipleUpdate.png"><img alt="Multiple update" src="_images/iconMultipleUpdate.png" style="width: 19.2px; height: 19.2px;" /></a> Multiple update</p>
+<figure class="align-default" id="id42">
+<img alt="Multiple mode item selection" src="_images/GUI_SCR_MultipleUpdate.png" />
+<figcaption>
+<p><span class="caption-text">Multiple mode item selection</span><a class="headerlink" href="#id42" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<p>Allows to update several items in one operation.</p>
+<ul class="simple">
+<li><p>The fields that can be updated depends on the selected element.</p></li>
+<li><p>The editable fields are sorted in alphabetical order.</p></li>
+</ul>
+</div>
+</div></blockquote>
+<p class="rubric"><a class="reference internal" href="_images/oneBLC.png"><img alt="One" src="_images/oneBLC.png" style="width: 18.0px; height: 18.0px;" /></a> Number of selected item</p>
+<p>Indicates the number of objects selected in the list area.</p>
+<p class="rubric"><a class="reference internal" href="_images/twoBLC.png"><img alt="Two" src="_images/twoBLC.png" style="width: 18.0px; height: 18.0px;" /></a> Fields choices</p>
+<p>Choose in the list the field which must be modified on the selected objects.</p>
+<p>When the control is chosen, a list of choices corresponding to the field is displayed.</p>
+<p>Then choose the new value of the field.</p>
+<p>Click on <a class="reference internal" href="_images/iconSave.png"><img alt="Save" src="_images/iconSave.png" style="width: 19.2px; height: 19.2px;" /></a> to apply the new value.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><p>Target milestones can be modified with “multiple update” tickets and activity screens</p></li>
+<li><p>You can bulk close items that do not have status (assigned, closed, recorded …) as resources</p></li>
+<li><p>The passwords of all users can be reset at the same time:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>On the users screen, In the update area, click on the Reset button.</p></li>
+<li><p>An email will be send to the selected users.</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+</div>
+<p class="rubric" id="items-list"><a class="reference internal" href="_images/threeBLC.png"><img alt="Three" src="_images/threeBLC.png" style="width: 18.0px; height: 18.0px;" /></a> Items list</p>
+<p>View in this list the operations carried out.</p>
+<p>In green the operation is successful and the modification is applied.</p>
+<p>In red, an error has occurred, the modification is not applied.</p>
+<p class="rubric"><a class="reference internal" href="_images/threeBLC.png"><img alt="Three" src="_images/threeBLC.png" style="width: 18.0px; height: 18.0px;" /></a> Buttons</p>
+<ul class="simple">
+<li><p>Click on <a class="reference internal" href="_images/iconSelectAll.png"><img alt="Select all" src="_images/iconSelectAll.png" style="width: 22.8px; height: 20.4px;" /></a> to select all the element in the list area</p></li>
+<li><p>Click on <a class="reference internal" href="_images/iconUnselectAll.png"><img alt="Unselect all" src="_images/iconUnselectAll.png" style="width: 21.599999999999998px; height: 20.4px;" /></a> to unselect the selected element in the list area</p></li>
+<li><p>Click on <a class="reference internal" href="_images/iconSave.png"><img alt="Save" src="_images/iconSave.png" style="width: 19.2px; height: 19.2px;" /></a> to apply the modifications</p></li>
+<li><p>Click on <a class="reference internal" href="_images/iconSubMenu.png"><img alt="Sub-menu" src="_images/iconSubMenu.png" style="width: 19.2px; height: 19.2px;" /></a> to access the deletion</p></li>
+<li><p>Click on <a class="reference internal" href="_images/iconQuit.png"><img alt="Quit multiple update mode" src="_images/iconQuit.png" style="width: 19.2px; height: 19.2px;" /></a> to quit the multiple update mode</p></li>
+</ul>
+</section>
+<section id="details-area">
+<span id="detail-window"></span><h2>Details Area<a class="headerlink" href="#details-area" title="Permalink to this heading">¶</a></h2>
+<figure class="align-center" id="id43">
+<img alt="Details area" src="_images/GUI_ZONE_DetailWindow.png" />
+<figcaption>
+<p><span class="caption-text">Details Area</span><a class="headerlink" href="#id43" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<aside class="topic">
+<p class="topic-title">Interface areas:</p>
+<p><a class="reference internal" href="_images/one.png"><img alt="One" src="_images/one.png" style="width: 18.0px; height: 18.0px;" /></a> <a class="reference internal" href="#item-identifier"><span class="std std-ref">Item identifier</span></a></p>
+<p><a class="reference internal" href="_images/two.png"><img alt="Two" src="_images/two.png" style="width: 18.0px; height: 18.0px;" /></a> <a class="reference internal" href="#creation-information"><span class="std std-ref">Creation information</span></a></p>
+<p><a class="reference internal" href="_images/three.png"><img alt="Three" src="_images/three.png" style="width: 18.0px; height: 18.0px;" /></a> <a class="reference internal" href="#detail-window-button"><span class="std std-ref">Buttons</span></a></p>
+<p><a class="reference internal" href="_images/four.png"><img alt="Four" src="_images/four.png" style="width: 18.0px; height: 18.0px;" /></a> <a class="reference internal" href="#dw-text-editor"><span class="std std-ref">Text Editor</span></a></p>
+<p><a class="reference internal" href="_images/five.png"><img alt="Five" src="_images/five.png" style="width: 18.0px; height: 18.0px;" /></a> <a class="reference internal" href="#detail-window-sections"><span class="std std-ref">Sections</span></a></p>
+<p><a class="reference internal" href="_images/six.png"><img alt="Six" src="_images/six.png" style="width: 18.0px; height: 18.0px;" /></a> <a class="reference internal" href="#specialfields"><span class="std std-ref">Special fields</span></a></p>
+</aside>
+<p class="rubric" id="item-identifier"><a class="reference internal" href="_images/oneBLC.png"><img alt="One" src="_images/oneBLC.png" style="width: 18.0px; height: 18.0px;" /></a> Item identifier</p>
+<p>Identifies the item with the element type and the item id and name.</p>
+<p>Each element is identified with a distinctive icon.</p>
+<p class="rubric" id="creation-information"><a class="reference internal" href="_images/twoBLC.png"><img alt="Two" src="_images/twoBLC.png" style="width: 18.0px; height: 18.0px;" /></a> Creation information</p>
+<p>You can see at a glance the status, update and creation information of the element.</p>
+<ul>
+<li><p>First calendar shows the date of update.</p></li>
+<li><p>Second calendar indicates the creation date of the element.</p>
+<blockquote>
+<div><p>Calendars appear in red when the modified or created date is today’s.</p>
+<p>They appear in yellow when this date is yesterday.</p>
+<p>and in gray when the date is older</p>
+</div></blockquote>
+</li>
+</ul>
+<p>The thumbnail corresponds to the creator of the element</p>
+<p>See: <a class="reference internal" href="#thumbnails"><span class="std std-ref">Thumbnails</span></a></p>
+<blockquote>
+<div><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Administrator can change this informations.</p>
+</div>
+</div></blockquote>
+<p class="rubric" id="detail-window-button"><a class="reference internal" href="_images/threeBLC.png"><img alt="Three" src="_images/threeBLC.png" style="width: 18.0px; height: 18.0px;" /></a> Buttons</p>
+<aside class="topic">
+<p class="topic-title">Details windows buttons</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="_images/iconHideMenuLeft.png"><img alt="Hide menu" src="_images/iconHideMenuLeft.png" style="width: 19.2px; height: 19.2px;" /></a> <a class="reference internal" href="#dw-hide-details"><span class="std std-ref">Hide Details element</span></a></p></li>
+<li><p><a class="reference internal" href="_images/iconNew.png"><img alt="New" src="_images/iconNew.png" style="width: 19.2px; height: 19.2px;" /></a> <a class="reference internal" href="#dw-create-item"><span class="std std-ref">Create new item</span></a></p></li>
+<li><p><a class="reference internal" href="_images/iconSave.png"><img alt="Save" src="_images/iconSave.png" style="width: 19.2px; height: 19.2px;" /></a> <a class="reference internal" href="#dw-save-item"><span class="std std-ref">Save the changes</span></a></p></li>
+<li><p><a class="reference internal" href="_images/iconRefresh.png"><img alt="Refresh" src="_images/iconRefresh.png" style="width: 19.2px; height: 19.2px;" /></a> <a class="reference internal" href="#dw-refresh-display"><span class="std std-ref">Refresh the display</span></a></p></li>
+<li><p><a class="reference internal" href="_images/IconCopy.png"><img alt="Copy" src="_images/IconCopy.png" style="width: 19.2px; height: 19.2px;" /></a> <a class="reference internal" href="#copy-item"><span class="std std-ref">Copy the current item</span></a></p></li>
+<li><p><a class="reference internal" href="_images/iconDelete.png"><img alt="Delete" src="_images/iconDelete.png" style="width: 19.2px; height: 19.2px;" /></a> <a class="reference internal" href="#dw-delete-item"><span class="std std-ref">Delete the item</span></a></p></li>
+<li><p><a class="reference internal" href="_images/iconSearchPlanning.png"><img alt="button icon search planning" src="_images/iconSearchPlanning.png" style="width: 19.2px; height: 19.2px;" /></a> <a class="reference internal" href="#searchplanning"><span class="std std-ref">Search planning</span></a></p></li>
+<li><p><a class="reference internal" href="_images/iconUndo.png"><img alt="Icon undo" src="_images/iconUndo.png" style="width: 19.2px; height: 19.2px;" /></a> <a class="reference internal" href="#dw-undo-change"><span class="std std-ref">Cancel changes</span></a></p></li>
+<li><p><a class="reference internal" href="_images/iconPrint.png"><img alt="Print" src="_images/iconPrint.png" style="width: 19.2px; height: 19.2px;" /></a> <a class="reference internal" href="#dw-print-item"><span class="std std-ref">Print the details</span></a></p></li>
+<li><p><a class="reference internal" href="_images/iconPDF.png"><img alt="Export PDF" src="_images/iconPDF.png" style="width: 19.2px; height: 19.2px;" /></a>  <a class="reference internal" href="#dw-export-pdf"><span class="std std-ref">Export to PDF format</span></a></p></li>
+<li><p><a class="reference internal" href="_images/iconPDFAttach.png"><img alt="Export PDF and attach file" src="_images/iconPDFAttach.png" style="width: 19.2px; height: 19.2px;" /></a> <a class="reference internal" href="#exportpdfandattach"><span class="std std-ref">Export to PDF and attach file</span></a></p></li>
+<li><p><a class="reference internal" href="_images/iconEmail.png"><img alt="email" src="_images/iconEmail.png" style="width: 19.2px; height: 19.2px;" /></a> <a class="reference internal" href="#email-detail"><span class="std std-ref">Send details</span></a></p></li>
+<li><p><a class="reference internal" href="_images/iconSubscribe.png"><img alt="Susbcribe" src="_images/iconSubscribe.png" style="width: 19.2px; height: 19.2px;" /></a> <a class="reference internal" href="#subscribe-detail"><span class="std std-ref">Subscribe detail</span></a></p></li>
+<li><p><a class="reference internal" href="_images/iconActivityStream.png"><img alt="Show Activity Stream" src="_images/iconActivityStream.png" style="width: 19.2px; height: 19.2px;" /></a> <a class="reference internal" href="#gui-activity-stream"><span class="std std-ref">Activity Stream</span></a></p></li>
+<li><p><a class="reference internal" href="_images/iconHistory.png"><img alt="Show history" src="_images/iconHistory.png" style="width: 19.2px; height: 19.2px;" /></a> <a class="reference internal" href="#change-history"><span class="std std-ref">Show history</span></a></p></li>
+<li><p><a class="reference internal" href="_images/iconChecklist.png"><img alt="Show checklist" src="_images/iconChecklist.png" style="width: 19.2px; height: 19.2px;" /></a> <a class="reference internal" href="#dw-show-checklist"><span class="std std-ref">Show checklist</span></a></p></li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Some buttons are not clickable when changes are ongoing.</p>
+<p>When changes are ongoing, you cannot select another item or another menu item.</p>
+<p>Save or cancel ongoing changes first.</p>
+</div>
+</aside>
+<blockquote id="dw-hide-details">
+<div><div class="compound">
+<p><a class="reference internal" href="_images/iconHideMenuLeft.png"><img alt="Hide menu" src="_images/iconHideMenuLeft.png" style="width: 19.2px; height: 19.2px;" /></a> Hide details</p>
+<p>This icon is visible on the views of the gantt chart in order to hide the details when it is set to vertical display.</p>
+</div>
+</div></blockquote>
+<blockquote id="dw-create-item">
+<div><div class="compound">
+<p><a class="reference internal" href="_images/iconNew.png"><img alt="New" src="_images/iconNew.png" style="width: 19.2px; height: 19.2px;" /></a> Create a new item</p>
+<p>Depending on the screen of the selected item, create a new item in that category.</p>
+</div>
+</div></blockquote>
+<blockquote id="dw-save-item">
+<div><div class="compound">
+<p><a class="reference internal" href="_images/iconSave.png"><img alt="Save" src="_images/iconSave.png" style="width: 19.2px; height: 19.2px;" /></a> Save the changes</p>
+<p>Save the changes of the current item.</p>
+<p>Or use shortcut key <kbd class="kbd compound docutils literal notranslate"><kbd class="kbd docutils literal notranslate">ctrl</kbd>-<kbd class="kbd docutils literal notranslate">s</kbd></kbd> to save the changes on the current item.</p>
+</div>
+</div></blockquote>
+<blockquote id="dw-refresh-display">
+<div><div class="compound">
+<p><a class="reference internal" href="_images/iconRefresh.png"><img alt="Refresh" src="_images/iconRefresh.png" style="width: 19.2px; height: 19.2px;" /></a> Refresh the display</p>
+<p>Allows you to refresh the details windows of the selected element</p>
+</div>
+</div></blockquote>
+<blockquote id="copy-item">
+<span id="index-3"></span><div><div class="compound">
+<p><a class="reference internal" href="_images/IconCopy.png"><img alt="Copy" src="_images/IconCopy.png" style="width: 19.2px; height: 19.2px;" /></a> Copy item</p>
+<p>The copy tool allows you to copy an element with multiple options.</p>
+<p>You can select only certain information, such as the structure of the project, the meetings, the links or even the attached files and certain elements of the scope…</p>
+<p>The information to be copied is different depending on the item selected.</p>
+<p>The new element has the status copied by default. An option allows you to copy the project with the status “recorded”.</p>
+<p>When copying the project, the data of the closed resources are not copied.</p>
+<p>When an element is copied into another element (for example as an estimate copied into an order) an automatic saving of the copy options is carried out. These options will then be offered to you when you make a new copy of the same type.</p>
+<p>The last saved options for the last type of element copied will be offered when copying again to a new type of element that has not yet been used.</p>
+<figure class="align-center" id="id44">
+<img alt="Dialog box - Copy element" src="_images/GUI_BOX_CopyItemProject.png" />
+<figcaption>
+<p><span class="caption-text">Copy project</span><a class="headerlink" href="#id44" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<p>The options displayed in dialog box depends on whether the element is simple or complex.</p>
+<div class="compound">
+<p>Simple element</p>
+<p>Simple element (environment parameters, lists,…) can only be copied “as is”.</p>
+</div>
+<div class="compound">
+<p>Complex element</p>
+<p>Complex element (projects, tickets, activities, financial documents …), it is possible to copy them into a new kind of elements.</p>
+<p>For instance, it is possible to copy a Ticket (the request) into an Activity (the task to manage the request) or meeting, periodics meetings as well as test sessions.</p>
+<p>For Projects and Activities, it is also possible to copy the hierarchic structure of activities (sub-projects, sub-activities and plannable elements).</p>
+<p>Select the elements you want copied from the initial element.</p>
+</div>
+</div>
+</div></blockquote>
+<blockquote id="dw-delete-item">
+<div><div class="compound">
+<p><a class="reference internal" href="_images/iconDelete.png"><img alt="Delete" src="_images/iconDelete.png" style="width: 19.2px; height: 19.2px;" /></a> Delete the item</p>
+<p>To delete the selected element.</p>
+<p>Basically, some items cannot be deleted. For example, if actual work has been saved on an activity. The latter, as well as the project on which it depends, cannot be deleted.</p>
+<p>To be able to delete these elements, go to the <a class="reference internal" href="AccessRights.html#acces-right"><span class="std std-ref">Access Rights</span></a> menu in the <a class="reference internal" href="AccessRights.html#specific-access"><span class="std std-ref">Specific access</span></a> and choose YES in can force the deletion of the actual work in the “specific update rights” section.</p>
+</div>
+</div></blockquote>
+<blockquote id="searchplanning">
+<div><div class="compound">
+<p><a class="reference internal" href="_images/iconSearchPlanning.png"><img alt="button icon search planning" src="_images/iconSearchPlanning.png" style="width: 19.2px; height: 19.2px;" /></a> Search in the planning (Gantt view)</p>
+<p>When you are on a scheduleable element (ticket, activity, milestone, etc.) click on the search planning icon to automatically go to the planning by targeting the previously selected element</p>
+</div>
+</div></blockquote>
+<blockquote id="dw-undo-change">
+<div><div class="compound">
+<p><a class="reference internal" href="_images/iconUndo.png"><img alt="Icon undo" src="_images/iconUndo.png" style="width: 19.2px; height: 19.2px;" /></a> Undo the change</p>
+<p>The button is clickable only when changes are ongoing.</p>
+<p>Allows you to undo changes made to the current element</p>
+</div>
+</div></blockquote>
+<blockquote id="dw-print-item">
+<div><div class="compound">
+<p><a class="reference internal" href="_images/iconPrint.png"><img alt="Print" src="_images/iconPrint.png" style="width: 19.2px; height: 19.2px;" /></a> Print the details</p>
+<p>To obtain a printable version of the details of the current element.</p>
+</div>
+</div></blockquote>
+<blockquote id="dw-export-pdf">
+<div><div class="compound">
+<p><a class="reference internal" href="_images/iconPDF.png"><img alt="Export PDF" src="_images/iconPDF.png" style="width: 19.2px; height: 19.2px;" /></a> Export to PDF format</p>
+<p>To get a printable version of the details in PDF format.</p>
+</div>
+</div></blockquote>
+<blockquote id="exportpdfandattach">
+<div><div class="compound">
+<p><a class="reference internal" href="_images/iconPDFAttach.png"><img alt="Export PDF and attach file" src="_images/iconPDFAttach.png" style="width: 19.2px; height: 19.2px;" /></a> Export to PDF format and attach files</p>
+<p>Allows to export the data of the selected element in PDF format and once generated, attaches the file in the section of the attached files of the element.</p>
+<p>The export contains all the details and the links between the tasks.</p>
+<p>Export can be done horizontally (landscape) or vertically (portrait) in A4 and/or A3 format with high quality details</p>
+</div>
+</div></blockquote>
+<blockquote id="email-detail">
+<div><div class="compound">
+<p><a class="reference internal" href="_images/iconEmail.png"><img alt="email" src="_images/iconEmail.png" style="width: 19.2px; height: 19.2px;" /></a> Email detail</p>
+<p>Allows to send an informative email to defined recipients list.</p>
+<figure class="align-center" id="id45">
+<img alt="Dialog box - Email detail" src="_images/GUI_BOX_EmailDetails.png" />
+<figcaption>
+<p><span class="caption-text">Email details dialog box</span><a class="headerlink" href="#id45" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<p>The list is defined according to the role of the recipient.</p>
+<p>See: <a class="reference internal" href="Concept.html#projeqtor-roles"><span class="std std-ref">ProjeQtOr roles</span></a></p>
+<p>Flag on the role checkbox to define the recipients list.</p>
+<blockquote>
+<div><div class="compound">
+<p><strong>Checkbox other</strong></p>
+<p>Flag on the checkbox other to manually enter email addresses.</p>
+<p>When sending an email, the address (es) entered in “other” remains in memory and will be proposed during the next mailing</p>
+<p>Use commas or semicolons to separate addresses.</p>
+</div>
+<div class="compound">
+<p><strong>Message</strong></p>
+<p>The message that will be included in the body of the email, in addition to a  complete description of the item.</p>
+</div>
+<div class="compound">
+<p><strong>Save as note</strong></p>
+<p>Flag on to indicate the email message will be saved as a note.</p>
+</div>
+<div class="compound">
+<p><strong>Email Template</strong></p>
+<p>You can choose an email template even without having predefined it in the settings.</p>
+<p>To create and view templates. See <a class="reference internal" href="ControlAutomation.html#email-template"><span class="std std-ref">Email Templates</span></a>.</p>
+</div>
+<div class="compound">
+<p><strong>Files to attach to email</strong></p>
+<p>Attachments for the item appear in the attachment table. If the item has no files attached then the table is not visible.</p>
+<p>The maximum size of attached files must be entered in the global parameters in the Mailing tab. The size indicated is in bytes unless you indicate otherwise. see: <a class="reference internal" href="GlobalParameters.html#gp-emailing-section"><span class="std std-ref">Global parameters</span></a></p>
+<p>When you check a file to send the size of the latter is displayed at the top right of the table.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>If several files are selected, then the total size of these files is calculated and displayed.</p></li>
+<li><p>If the total size</p></li>
+</ul>
+</div></blockquote>
+</div>
+</div></blockquote>
+</div>
+</div></blockquote>
+<blockquote id="subscribe-detail">
+<div><div class="compound">
+<p><a class="reference internal" href="_images/iconSubscribe.png"><img alt="Susbcribe" src="_images/iconSubscribe.png" style="width: 19.2px; height: 19.2px;" /></a> Subscribe detail</p>
+<p>Allows to subscribe to tracking of an item.</p>
+<p>This icon is checked when you subscribed <a class="reference internal" href="_images/iconSubscribeON.png"><img alt="Susbcribe on" src="_images/iconSubscribeON.png" style="width: 19.2px; height: 19.2px;" /></a>.</p>
+<figure class="align-default" id="id46">
+<img alt="Dialog box - Susbcribe detail" src="_images/GUI_ZONE_Subscribe.png" />
+<figcaption>
+<p><span class="caption-text">Subscribe detail</span><a class="headerlink" href="#id46" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<p>When a user “subscribes” to the project, he will receive notifications “to subscribers” for all elements of the project</p>
+<p>Ability to subscribe a third party user to the tracking of an element (according to configurable rights).</p>
+<p>You can drag the name of selected ressources and drop them on the right column for subscribe them.</p>
+<figure class="align-default" id="id47">
+<img alt="Dialog box - Susbcribe for other" src="_images/GUI_ZONE_SubscribeOther.png" />
+<figcaption>
+<p><span class="caption-text">Suscribe for other</span><a class="headerlink" href="#id47" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<p><strong>Display of list of followed items</strong></p>
+<p>You can view the list of followed items in two ways:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>click on the button “View the list of subscriptions” in the subscription menu</p></li>
+<li><p>In the user settings of the <a class="reference internal" href="UserParameter.html#up-automation"><span class="std std-ref">Automation section</span></a>, click on the “show list of followed items” button.</p></li>
+</ul>
+</div></blockquote>
+<figure class="align-default" id="id48">
+<img alt="Dialog box - Display list of tracked items" src="_images/GUI_BOX_ListSubscribe.png" />
+<figcaption>
+<p><span class="caption-text">Display list of followed items</span><a class="headerlink" href="#id48" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong>email</strong></p>
+<p>Possibility to send an email to users following the item</p>
+<p>When unitary sending detail or on automatic sending or on indicator.</p>
+<p><strong>contacts</strong></p>
+<p>You can see the items followed by your contacts</p>
+<p>see: <a class="reference internal" href="Customer.html#contact"><span class="std std-ref">Contacts</span></a></p>
+</div>
+</div>
+</div></blockquote>
+<blockquote id="gui-activity-stream">
+<div><div class="compound">
+<p><a class="reference internal" href="_images/iconActivityStream.png"><img alt="Show Activity Stream" src="_images/iconActivityStream.png" style="width: 19.2px; height: 19.2px;" /></a> Activity Stream</p>
+<p>This icon allows you to display the Stream activity in a unique way on the selected element.</p>
+<p>Unlike the Activity Stream icon in the Display layout menu which activates it globally on all screens.</p>
+<p>The last position of the activity stream is always saved.</p>
+</div>
+<p>See: <a class="reference internal" href="TransverseFeatures.html#activity-stream"><span class="std std-ref">Activity Stream</span></a></p>
+</div></blockquote>
+<blockquote id="change-history">
+<div><div class="compound">
+<p><a class="reference internal" href="_images/iconHistory.png"><img alt="Show history" src="_images/iconHistory.png" style="width: 19.2px; height: 19.2px;" /></a> History of changes</p>
+<p>All the changes items are tracked.</p>
+<p>They are stored and displayed on each item.</p>
+<p>On creation, just an insert operation is stored, not all the initial values on creation.</p>
+<blockquote>
+<div><table class="docutils align-default" id="id49">
+<caption><span class="caption-text">Fields of changes</span><a class="headerlink" href="#id49" title="Permalink to this table">¶</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Field</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Operation</p></td>
+<td><p>The operation on the item (insert or update).</p></td>
+</tr>
+<tr class="row-odd"><td><p>Data</p></td>
+<td><p>The field modified.</p></td>
+</tr>
+<tr class="row-even"><td><p>Value before</p></td>
+<td><p>The value of the field before the update.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Value after</p></td>
+<td><p>The value of the field after the update.</p></td>
+</tr>
+<tr class="row-even"><td><p>Date</p></td>
+<td><p>Date of change operation.</p></td>
+</tr>
+<tr class="row-odd"><td><p>User</p></td>
+<td><p>Name of the user who operated the change.</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Displaying the history of changes</strong></p>
+<ul class="simple">
+<li><p>The user parameter “Display history” allows to define whether the history of changes appears in a section or in a dialog box.</p></li>
+<li><p>If the value “On request” is set, the button <a class="reference internal" href="_images/iconHistory.png"><img alt="Show history" src="_images/iconHistory.png" style="width: 19.2px; height: 19.2px;" /></a> appears on the detail header window.</p></li>
+<li><p>Click on  to display the history of changes.</p></li>
+<li><p>If the value “Yes” is set, the “Change history” section appears in the detail window.</p></li>
+</ul>
+<figure class="align-center" id="id50">
+<img alt="Dialog box - History of changes" src="_images/GUI_BOX_HistoryChange.png" />
+<figcaption>
+<p><span class="caption-text">Dialog box - History of changes</span><a class="headerlink" href="#id50" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<p><strong>Show/Hide work</strong></p>
+<ul class="simple">
+<li><p>This button allows to show or hide work changes done in “Real Work Allocation”.</p></li>
+<li><p>For section “Change history”  the display of work is defined in  user parameter “Display history”.</p></li>
+</ul>
+</div></blockquote>
+</div>
+</div></blockquote>
+<blockquote id="dw-show-checklist">
+<div><div class="compound">
+<p><a class="reference internal" href="_images/iconChecklist.png"><img alt="Show checklist" src="_images/iconChecklist.png" style="width: 19.2px; height: 19.2px;" /></a> Show / hide the checklist</p>
+<p>This button is only displayed if the “display checklist” parameter in the user settings is set to “on request” status</p>
+<p><strong>More details:</strong> <a class="reference internal" href="ControlAutomation.html#checklist-definition"><span class="std std-ref">Checklists</span></a></p>
+</div>
+</div></blockquote>
+<blockquote id="drop-file-area">
+<div><div class="compound">
+<p><a class="reference internal" href="_images/iconAttach.png"><img alt="attach" src="_images/iconAttach.png" style="width: 19.2px; height: 19.2px;" /></a> Drop file area</p>
+<p>This area allows to add an attachment file to the item.</p>
+<ul class="simple">
+<li><p>Drop the file in the area.</p></li>
+<li><p>Or click on the area to select a file.</p></li>
+</ul>
+</div>
+</div></blockquote>
+<p class="rubric" id="dw-text-editor"><a class="reference internal" href="_images/fourBLC.png"><img alt="Four" src="_images/fourBLC.png" style="width: 18.0px; height: 18.0px;" /></a> Text editor</p>
+<p>Text editors are available for editing of long text fields like description, results, notes, …</p>
+<p>Selection of text editor can be done in User and Global parameters screens.</p>
+<blockquote>
+<div><div class="compound">
+<p>CK Editor</p>
+<p>The most advanced web editor.</p>
+<p>Spell checker available with this text editor.</p>
+<figure class="align-center" id="id51">
+<img alt="CK Editor" src="_images/GUI_ZONE_CKEditor.png" />
+<figcaption>
+<p><span class="caption-text">CK Editor - Ability to resize the CK Editor height, the size is saved</span><a class="headerlink" href="#id51" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+</div>
+<p>Possibility to deactivate the SCAYT spell checker. It can be modified by each user in user parameters.</p>
+<div class="compound">
+<p>CK editor inline</p>
+<p>As CK Editor.</p>
+<p>Activated only when needed.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul class="simple">
+<li><p>CK editor inline height, keep the size of CK editor.</p></li>
+<li><p>Click on the text zone to display toolbar.</p></li>
+<li><p>Can not use it in fullscreen mode.</p></li>
+</ul>
+</div>
+</div>
+<div class="compound">
+<p>Plain text editor</p>
+<ul class="simple">
+<li><p>Conventional text input.</p></li>
+<li><p>Text zone is extendable.</p></li>
+</ul>
+</div>
+</div></blockquote>
+<p class="rubric" id="detail-window-sections"><a class="reference internal" href="_images/sixBLC.png"><img alt="Six" src="_images/sixBLC.png" style="width: 18.0px; height: 18.0px;" /></a> Sections</p>
+<ul class="simple">
+<li><p>The fields are regrouped under a section.</p></li>
+<li><p>All sections can be folded or unfolded, clicking on the section title.</p></li>
+</ul>
+<blockquote>
+<div><div class="compound">
+<p><strong>Columns</strong></p>
+<p>The sections are organized in columns.</p>
+<p>Number of displayed columns can be defined in user parameters.</p>
+</div>
+<div class="compound">
+<p><strong>Common sections</strong></p>
+<p>Some sections are displayed on almost all screens. (See : <a class="reference internal" href="CommonSections.html#common-sections"><span class="std std-ref">Common sections</span></a>)</p>
+</div>
+<div class="compound">
+<p><strong>Item count in the list</strong></p>
+<p>When the section contains a list, the item count is displayed at right of the header.</p>
+<figure class="align-center" id="id52">
+<img alt="Header section" src="_images/GUI_ZONE_SectionHeader.png" />
+<figcaption>
+<p><span class="caption-text">Header section</span><a class="headerlink" href="#id52" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+</div>
+<div class="compound">
+<p><strong>Thumbnails on items in the list</strong></p>
+<p>Thumbnails are displayed on item row to present field values in graphical format.</p>
+<p>See: <a class="reference internal" href="#thumbnails"><span class="std std-ref">Thumbnails</span></a>.</p>
+</div>
+<div class="compound">
+<p><strong>Go to selected item</strong></p>
+<p>In a list, possibility to go directly to an item by clicking on its fields.</p>
+<p>Cursor change to <img alt="pointing hand cursor" src="_images/pointingHandCursor.png" /> on clickable fields.</p>
+</div>
+</div></blockquote>
+<section id="special-fields">
+<span id="specialfields"></span><h3>Special fields<a class="headerlink" href="#special-fields" title="Permalink to this heading">¶</a></h3>
+<p class="rubric">Accelerator buttons</p>
+<p>ProjeQtOr provides you with shortcut buttons allowing you to more easily and quickly manage the information in the fields.</p>
+<blockquote>
+<div><div class="compound">
+<p>Move to the next status</p>
+<p>This button allows to skip to the next status without having to open the list.
+The next status is defined by the workflow linked to the type of element.</p>
+<figure class="align-center" id="id53">
+<img alt="Button - Move to next status" src="_images/GUI_BUTTON_MoveToNextStatus.png" />
+<figcaption>
+<p><span class="caption-text">Move to next status</span><a class="headerlink" href="#id53" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<p>The mouse tracking over this colored button allows to show the workflow.</p>
+<p>It is possible to define events when a state passes.</p>
+<p>If a field is required for the transition from one state to another then you will be automatically redirected to the required field.</p>
+<p>Regardless of the layout and presentation of your screens</p>
+</div>
+</div></blockquote>
+<blockquote id="assigntome-button">
+<div><div class="compound">
+<p>Assign to me button</p>
+<p>This button allows to set the current user in the related field.</p>
+<figure class="align-center">
+<img alt="Button - Assign to me" src="_images/GUI_BUTTON_AssignToMe.png" />
+</figure>
+</div>
+</div></blockquote>
+<p class="rubric" id="combo-list-fields">Combo list field</p>
+<p>Combo list field allows to search, view or create item associated with the field.</p>
+<p>The access to view or create item depends on your access rights. Some buttons can be not available.</p>
+<figure class="align-center" id="id54">
+<img alt="Field - Combo list" src="_images/GUI_ZONE_ComboListFields.png" />
+<figcaption>
+<p><span class="caption-text">Combo list</span><a class="headerlink" href="#id54" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<ul class="simple">
+<li><p>Click on <a class="reference internal" href="_images/iconGoto.png"><img alt="icon goto" src="_images/iconGoto.png" style="width: 19.2px; height: 19.2px;" /></a> will directly go to the selected item.</p></li>
+<li><p>Click on <a class="reference internal" href="_images/iconView.png"><img alt="button icon Follow up" src="_images/iconView.png" style="width: 19.2px; height: 19.2px;" /></a> to display the details of the selected item.</p></li>
+<li><p>Click on <a class="reference internal" href="_images/iconAdd.png"><img alt="Add" src="_images/iconAdd.png" style="width: 19.2px; height: 19.2px;" /></a> to directly add a new element corresponding to the selected field.</p></li>
+<li><p>Click on <a class="reference internal" href="_images/iconSearch.png"><img alt="button icon search" src="_images/iconSearch.png" style="width: 19.2px; height: 19.2px;" /></a> to search for an element among those existing corresponding to the selected field.</p></li>
+</ul>
+<figure class="align-center" id="id55">
+<img alt="Dialog box to search item" src="_images/GUI_BOX_DetailOfListITEM.png" />
+<figcaption>
+<p><span class="caption-text">Dialog box - Item search</span><a class="headerlink" href="#id55" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<ul class="simple">
+<li><p>Click on <a class="reference internal" href="_images/iconValid.png"><img alt="Validation" src="_images/iconValid.png" style="width: 19.2px; height: 19.2px;" /></a> to re-select an item.</p></li>
+<li><p>Click on <a class="reference internal" href="_images/iconUndo.png"><img alt="Icon undo" src="_images/iconUndo.png" style="width: 19.2px; height: 19.2px;" /></a> to close the dialog box.</p></li>
+<li><p>Click on <a class="reference internal" href="_images/iconFilters.png"><img alt="Filters" src="_images/iconFilters.png" style="width: 19.2px; height: 19.2px;" /></a> to filter the items list</p></li>
+</ul>
+<p>Some elements is possible to select several items, use <kbd class="kbd docutils literal notranslate">Control</kbd> or <kbd class="kbd docutils literal notranslate">Shift</kbd>.</p>
+<p class="rubric" id="origin-field">Origin field</p>
+<p>The origin of an element has no impact on it.</p>
+<p>This is a memo, pure information.</p>
+<p>It can be filled in automatically during a copy or manually.</p>
+<figure class="align-center" id="id56">
+<img alt="Field - Origin" src="_images/GUI_ZONE_OriginField.png" />
+<figcaption>
+<p><span class="caption-text">Origin field</span><a class="headerlink" href="#id56" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<ul>
+<li><p>This field allows to determine the element of origin.</p></li>
+<li><p>The origin is used to keep track of events (ex.: order from quote, action from meeting).</p></li>
+<li><p>The origin may be selected manually or automatically inserted during copying an element.</p>
+<blockquote>
+<div><div class="compound">
+<p>Origin element</p>
+<ul class="simple">
+<li><p>Click on <a class="reference internal" href="_images/iconAdd.png"><img alt="Add" src="_images/iconAdd.png" style="width: 19.2px; height: 19.2px;" /></a> to add a orgin element.</p></li>
+<li><p>Click on <a class="reference internal" href="_images/iconDelete.png"><img alt="Delete" src="_images/iconDelete.png" style="width: 19.2px; height: 19.2px;" /></a> to delete the link.</p></li>
+</ul>
+<figure class="align-center" id="id57">
+<img alt="Dialog box - Add an origin element" src="_images/GUI_BOX_AddOriginElem.png" />
+<figcaption>
+<p><span class="caption-text">Add an origin element</span><a class="headerlink" href="#id57" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<ul class="simple">
+<li><p>Choose the type of element from the drop-down list.</p></li>
+<li><p>Select the item from the corresponding list</p></li>
+</ul>
+</div>
+</div></blockquote>
+</li>
+</ul>
+<p class="rubric">Set color field</p>
+<ul class="simple">
+<li><p>This field allows to set the color of an item.</p></li>
+<li><p>Used to differentiate items in list or report.</p></li>
+<li><p>Click on list of colors to select.</p></li>
+<li><p>Click on “Reset” button to erase.</p></li>
+</ul>
+<figure class="align-center" id="id58">
+<img alt="Zone - Set color field" src="_images/GUI_ZONE_SetColor.png" />
+<figcaption>
+<p><span class="caption-text">Set color field</span><a class="headerlink" href="#id58" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<ul class="simple">
+<li><p>Displays a colored circle for field colorable.</p></li>
+<li><p>Some list of values has a field to define a color.</p></li>
+<li><p>A color is defined for each value.</p></li>
+</ul>
+<p class="rubric" id="thumbnails">Thumbnails</p>
+<p>Thumbnails are a graphical representation of the field value.</p>
+<blockquote>
+<div><div class="compound">
+<p>Date</p>
+<ul class="simple">
+<li><p>Displays the date of creation or update of the item.</p></li>
+<li><p>Move cursor over thumbnail to display the date.</p></li>
+</ul>
+<blockquote>
+<div><div class="compound">
+<p><a class="reference internal" href="_images/iconCalendarRed.png"><img alt="red today calendar" src="_images/iconCalendarRed.png" style="width: 19.2px; height: 19.2px;" /></a> The Item have been created or updated today.</p>
+</div>
+<div class="compound">
+<p><a class="reference internal" href="_images/iconCalendarYellow.png"><img alt="yellow yesterday calendar" src="_images/iconCalendarYellow.png" style="width: 19.2px; height: 19.2px;" /></a> The Item have been created or updated recently.</p>
+</div>
+<div class="compound">
+<p><a class="reference internal" href="_images/iconCalendarGrey.png"><img alt="grey old calendar" src="_images/iconCalendarGrey.png" style="width: 19.2px; height: 19.2px;" /></a> Default view.</p>
+</div>
+</div></blockquote>
+</div>
+<div class="compound">
+<p>User</p>
+<ul>
+<li><p>Portrait of the user. Displays if it has created or updated an item.</p></li>
+<li><p>If no photo is saved, an icon will automatically be generated.</p></li>
+<li><p>The letter is chosen according to the real name. This is his initial.</p></li>
+<li><p>Move the cursor over the thumbnail to display the user’s name and photo in its original size.</p></li>
+<li><p>The user who does not have a photo automatically obtains a thumbnail with the first letter that makes up the real name.</p>
+<blockquote>
+<div><figure class="align-default" id="id59">
+<img alt="list of users without personal photo" src="_images/GUI_ZONE_ListNONphoto.png" />
+<figcaption>
+<p><span class="caption-text">list of users without personal photo</span><a class="headerlink" href="#id59" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+</div></blockquote>
+</li>
+</ul>
+</div>
+<div class="compound">
+<p>Comment</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="_images/iconComment.png"><img alt="Comment" src="_images/iconComment.png" style="width: 19.2px; height: 19.2px;" /></a> Indicates a comment or description is defined.</p></li>
+<li><p><a class="reference internal" href="_images/iconAddComment.png"><img alt="Add Comment" src="_images/iconAddComment.png" style="width: 19.2px; height: 19.2px;" /></a> to add a new note or comment</p></li>
+<li><p>Move cursor over thumbnail to display text.</p></li>
+</ul>
+</div>
+<div class="compound">
+<p>Privacy</p>
+<p>Indicates the visibility level defined in a note or attachment.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><a class="reference internal" href="_images/iconFixed.png"><img alt="Privacy" src="_images/iconFixed.png" style="width: 19.2px; height: 19.2px;" /></a> Private contents.</p></li>
+<li><p><a class="reference internal" href="_images/iconTeam.png"><img alt="Team" src="_images/iconTeam.png" style="width: 19.2px; height: 19.2px;" /></a> Visible to team.</p></li>
+</ul>
+</div></blockquote>
+</div>
+</div></blockquote>
+<p class="rubric">Message pop-up</p>
+<p>Users may receive messages pop-up, displayed on the bottom right corner of the screen.</p>
+<p>Three kinds of message may be displayed:</p>
+<ul class="simple">
+<li><p>Information</p></li>
+<li><p>Warning</p></li>
+<li><p>Alert</p></li>
+</ul>
+<figure class="align-center">
+<img alt="Example - message pop-up" src="_images/GUI_BOX_Alert.png" />
+</figure>
+<p class="rubric">Action on message pop-up</p>
+<p><strong>Three possible actions:</strong></p>
+<ul class="simple">
+<li><p>Select to remind you in a given number of minutes (message will close and appear  again in the given number of minutes).</p></li>
+<li><p>Mark it as read to definitively hide it.</p></li>
+<li><p>Mark as read all remaining alerts (the number appears on the button).</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>On <a class="reference internal" href="Tools.html#alerts"><span class="std std-ref">Alerts</span></a> screen, the user can read the alert messages marked as read.</p>
+</div>
+<p class="rubric">Alert on detail window</p>
+<p>On indicatorable items, you may see a small icon on top left of the detail of the item.</p>
+<p>Just move the mouse over the icon to display, which indicator has been raised.</p>
+<figure class="align-center" id="id60">
+<img alt="Alert on detail window" src="_images/GUI_ZONE_Alert.png" />
+<figcaption>
+<p><span class="caption-text">Alert on detail window</span><a class="headerlink" href="#id60" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<p class="rubric">Alert on Today screen</p>
+<p>Just move the mouse over the red line to display, which indicator has been raised.</p>
+<figure class="align-center" id="id61">
+<img alt="Alert on Today screen" src="_images/GUI_ZONE_AlertToday.png" />
+<figcaption>
+<p><span class="caption-text">Alert on Today screen</span><a class="headerlink" href="#id61" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="index.html">
+              <img class="logo" src="_static/Projeqtor_Logo_White.png" alt="Logo"/>
+            </a></p>
+  <div>
+    <h3><a href="index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Graphical User Interface</a><ul>
+<li><a class="reference internal" href="#top-bar">Top bar</a></li>
+<li><a class="reference internal" href="#infos-bar">Infos bar</a></li>
+<li><a class="reference internal" href="#custom-menu">Custom Menu</a></li>
+<li><a class="reference internal" href="#menu">Menu</a></li>
+<li><a class="reference internal" href="#secondary-menu">Secondary Menu</a></li>
+<li><a class="reference internal" href="#list-area">List Area</a></li>
+<li><a class="reference internal" href="#details-area">Details Area</a><ul>
+<li><a class="reference internal" href="#special-fields">Special fields</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div>
+    <h4>Previous topic</h4>
+    <p class="topless"><a href="Tools.html"
+                          title="previous chapter">Tools</a></p>
+  </div>
+  <div>
+    <h4>Next topic</h4>
+    <p class="topless"><a href="CommonSections.html"
+                          title="next chapter">Common sections</a></p>
+  </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="CommonSections.html" title="Common sections"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="Tools.html" title="Tools"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">ProjeQtOr User guide 11.1 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Graphical User Interface</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2015-2024, ProjeQtOr.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 5.1.1.
+    </div>
+  </body>
+</html>

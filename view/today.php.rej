@@ -1,0 +1,27 @@
+@@ -591,7 +591,7 @@
+     }
+     echo '</tr>';
+     echo '</table>';
+-   echo '<div id="meteoDivScroll" style="min-width:850px; ';
++   echo '<div id="meteoDivScroll" style="clear: left;min-width:850px; ';
+     if(count($tabShowTodaySection)==1){ 
+       echo 'height: 100%;' ;
+     }else{
+@@ -806,7 +806,7 @@
+       echo '<td class="todayData" >&nbsp;</td>';
+       echo '</tr>';
+       echo '</table>';
+-      echo '<div id="elementsDivScroll" style="min-width:850px;';
++      echo '<div id="elementsDivScroll" style="clear: left;min-width:850px;';
+       if(count($tabShowTodaySection)==1){
+         echo 'height: 100%;' ;
+       }else{
+@@ -1011,7 +1011,7 @@
+         .'  <td class="todayData" style="margin:0;padding:0;width:'.$width.'px;max-width:'.$width.'px;text-align:center"><div style="width:'.($width).'px; overflow: hidden; text-overflow: hidden;">'.pq_ucfirst(i18n('colLate')).'</div></td>';
+     echo '</tr>';
+     echo '</table>';
+-    echo '<div id="datesDivScroll" style="min-width:850px;';
++    echo '<div id="datesDivScroll" style="clear: left;min-width:850px;';
+     if(count($tabShowTodaySection)==1){
+       echo 'height: 100%;' ;
+     }else{

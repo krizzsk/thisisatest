@@ -1,0 +1,92 @@
+.. include:: ImageReplacement.txt
+
+.. index:: Diary
+.. index:: Resource (Diary)
+
+
+.. _diary:
+
+Diary
+-----
+
+Allows to display planned task to a resource on a calendar view.
+
+This view can be monthly, weekly or daily.
+
+Just click on any task to access directly.
+
+You can show activity without workload on diary screen.
+
+.. note:: On mouse over the task, you can see a short information about the task.
+   
+   Meetings are sorted in chronological order within the day.
+
+.. raw:: latex
+
+    \newpage
+
+Calendar selector
+=================
+
+.. figure:: /images/GUI/DIARY_SCR_DiaryPresentation.png
+   :alt: Diary calendar selector
+   :align: center
+   
+   Diary calendar selector
+
+.. topic:: Day colors
+
+   * **Yellow day** : Current day
+   * **Grey days** : Days off
+   
+   
+
+.. rubric:: |oneBLC| 1st day
+
+Displays a specific date or date.
+
+The first day of the week or month is displayed according to the selected view.
+
+.. rubric:: |twoBLC| Resource
+
+Allows to select the resource calendar.
+
+.. rubric:: |threeBLC| Select item to display on the liste
+
+Allows you to display only certain items on the calendar like activities, meetings, actions, tickets...
+
+.. image:: /images/GUI/DIARY_ZONE_SelectedItem.png
+
+.. rubric:: |fourBLC| Show done items & Show closed items
+
+Allows to display or not the done and closed items.
+
+
+.. rubric:: |fiveBLC| and |sixBLC| Top buttons and Left side buttons
+
+Allows to change current month, week, or day.
+
+Click on |arrowRight| to go to week display mode.
+
+Click on |arrowLeft| to return to the last display mode.
+
+
+
+.. rubric:: |sevenBLC| Day number button 
+
+Click on the day number button to go day display mode.
+
+.. image:: /images/GUI/DIARY_ZONE_DaySelected.png
+
+
+
+.. rubric:: |eightBLC| Task / Activity / Tickets/ Leaves 
+
+Each item the resource is assigned to is displayed in its log.
+
+All types of holidays and deliveries are also displayed.
+
+The color that appears on the objects are those of the project to which they are attached.
+
+.. image:: /images/GUI/DIARY_ZONE_DetailDay.png
+ 

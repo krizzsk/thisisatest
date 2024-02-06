@@ -1,0 +1,9 @@
+@@ -1570,8 +1660,6 @@
+       if($print)displayOK(i18n("checkNoError"));
+     }
+   }
+-  
+-  
+ }
+ 
+ if (! function_exists("formatWbs")) {

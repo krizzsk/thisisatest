@@ -1,0 +1,548 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+    <title>Export for files &#8212; ProjeQtOr User guide 11.1 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/classic.css" />
+    <link rel="stylesheet" href="_static/projeqtor.css" type="text/css" />
+    
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="_static/doctools.js"></script>
+    
+    <link rel="shortcut icon" href="_static/favicon.ico"/>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Translation" href="Translation.html" />
+    <link rel="prev" title="Asset Management" href="AssetManagement.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="Translation.html" title="Translation"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="AssetManagement.html" title="Asset Management"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">ProjeQtOr User guide 11.1 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Export for files</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="documents">
+<span id="document"></span><span id="index-0"></span><h1>Documents<a class="headerlink" href="#documents" title="Permalink to this heading">¶</a></h1>
+<p>ProjeQtOr integrates some EDM functionalities, and allows you to manage documents and follow the evolution of document versions. Each document or document version can then be linked to an element of ProjeQtOr (Project, Activity or other).</p>
+<aside class="sidebar">
+<p class="sidebar-title">Concepts</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="Concept.html#product-concept"><span class="std std-ref">Product</span></a></p></li>
+</ul>
+</aside>
+<p>A document is a reference element that gives a description of a project or product.</p>
+<p>The document element describes the general information.</p>
+<p>The file will be stored in the tool as versions.</p>
+<figure class="align-default" id="id1">
+<img alt="Documents screen" src="_images/DOCUMENT_SCR_Documents.png" />
+<figcaption>
+<p><span class="caption-text">Documents screen</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>ProjeQtOr does not integrate the following features:</p>
+<p>Full text indexing of documents, to search for a document using a keyword it contains as well as online editing of documents.</p>
+</div>
+<p class="rubric">Description section</p>
+<aside class="sidebar">
+<p class="sidebar-title">Other sections</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="CommonSections.html#linkelement-section"><span class="std std-ref">Linked element</span></a></p></li>
+<li><p><a class="reference internal" href="CommonSections.html#note-section"><span class="std std-ref">Notes</span></a></p></li>
+</ul>
+</aside>
+<table class="docutils align-default" id="id2">
+<caption><span class="caption-text">Required fields <a class="reference internal" href="_images/RequiredFILE.png"><img alt="Required File legend" src="_images/RequiredFILE.png" style="width: 1.7999999999999998px; height: 10.799999999999999px;" /></a></span><a class="headerlink" href="#id2" title="Permalink to this table">¶</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Field</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="Glossary.html#term-Id"><span class="xref std std-term">Id</span></a></p></td>
+<td><p>Unique Id for the context.</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="Required File" src="_images/RequiredFILE.png" /> Type</p></td>
+<td><p>Type of the document</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="Required File" src="_images/RequiredFILE.png" /> Project</p></td>
+<td><p>Name of the project to which the document is attached</p></td>
+</tr>
+<tr class="row-odd"><td><p>Product</p></td>
+<td><p>Name of the product to wich the document is attached</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="Required File" src="_images/RequiredFILE.png" /> Directory</p></td>
+<td><p>Choose the <a class="reference internal" href="#document-directory"><span class="std std-ref">directory</span></a> in which the document should be saved</p></td>
+</tr>
+<tr class="row-odd"><td><p>Document reference</p></td>
+<td><p>Automatic reference created from the parameters saved in the <a class="reference internal" href="GlobalParameters.html#gp-reference"><span class="std std-ref">global parameters</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p>External reference</p></td>
+<td><p>Manual reference corresponding to your activity</p></td>
+</tr>
+<tr class="row-odd"><td><p>Author</p></td>
+<td><p>The author, the creator of the document.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="Glossary.html#term-Closed"><span class="xref std std-term">Closed</span></a></p></td>
+<td><p>Box checked indicates the document is archived.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Cancelled</p></td>
+<td><p>Box checked indicates the document is cancelled.</p></td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Project and Product</p>
+<p>Must be concerned either with a project, a product or both.</p>
+<p>If the project is specified, the list of values for field “Product” contains only products linked the selected project.</p>
+<p class="rubric">Field Author</p>
+<p>Positioned by default as the connected user.</p>
+<p>Can be changed (for instance if the author is not the current user).</p>
+<p class="rubric" id="index-1">Section Lock</p>
+<p>This section allows to manage document locking.</p>
+<p>When a document is locked the following fields are displayed.</p>
+<figure class="align-default" id="id3">
+<img alt="Lock the document section" src="_images/DOCUMENT_ZONE_LockDocument.png" />
+<figcaption>
+<p><span class="caption-text">Lock document section</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<ul class="simple">
+<li><p>Locked: box checked indicates the document is locked.</p></li>
+<li><p>Locked by: user who locked the document.</p></li>
+<li><p>Locked since: date and time when document was locked.</p></li>
+</ul>
+<blockquote>
+<div><div class="compound">
+<p>lock/unlock this document</p>
+<ul class="simple">
+<li><p>Button to lock or unlock the document to preserve it from being editing, or new version added.</p></li>
+<li><p>When document is locked it cannot be modified</p></li>
+<li><p>When the document is locked, it can not be downloaded except for the user who locked it or a user with privilege</p></li>
+<li><p>Only the user who locked the document, or a user with privilege can unlock it</p></li>
+<li><p>You can forbid <a class="reference internal" href="GlobalParameters.html#format-reference-doc"><span class="std std-ref">Global Parameters</span></a></p></li>
+</ul>
+</div>
+</div></blockquote>
+<span class="target" id="index-2"></span><section id="document-versioning">
+<span id="versioning"></span><span id="index-3"></span><h2>Document versioning<a class="headerlink" href="#document-versioning" title="Permalink to this heading">¶</a></h2>
+<p>This section allows to manage version list of document.</p>
+<p>Document versioning allows to keep different version at each evolution of the document.</p>
+<p>Document can evolve and a new file is generated at each evolution.</p>
+<p>Type of versioning must be defined for a document.</p>
+<figure class="align-default" id="id4">
+<img alt="Versionning section" src="_images/DOCUMENT_ZONE_Versioning.png" />
+<figcaption>
+<p><span class="caption-text">Versioning section</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<ul class="simple">
+<li><p>Click on <a class="reference internal" href="_images/iconAdd.png"><img alt="Add" src="_images/iconAdd.png" style="width: 19.2px; height: 19.2px;" /></a> to add a new version.</p></li>
+<li><p>Click on <a class="reference internal" href="_images/iconDownload.png"><img alt="Icon download" src="_images/iconDownload.png" style="width: 19.2px; height: 19.2px;" /></a> to download file at this version.</p></li>
+<li><p>Click on <a class="reference internal" href="_images/iconEdit.png"><img alt="Button edit" src="_images/iconEdit.png" style="width: 19.2px; height: 19.2px;" /></a> to modifiy a version.</p></li>
+<li><p>Click on <a class="reference internal" href="_images/iconDelete.png"><img alt="Delete" src="_images/iconDelete.png" style="width: 19.2px; height: 19.2px;" /></a> to delete a version.</p></li>
+<li><p>Click on <a class="reference internal" href="_images/iconList.png"><img alt="List" src="_images/iconList.png" style="width: 19.2px; height: 19.2px;" /></a> to display the history for approvals for version</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong>Drag and drop</strong></p>
+<p>You can drag your file directly onto the screen.</p>
+<p>The “document version” pop-up opens automatically to allow you to drop your file into the pop-up window.</p>
+</div>
+<p class="rubric">Type of versioning</p>
+<p>A document can evolve following four ways defined as versioning type :</p>
+<blockquote>
+<div><div class="compound">
+<p><strong>Evolutive</strong></p>
+<ul class="simple">
+<li><p>Version is a standard Vx.y format.</p></li>
+<li><p>It is the most commonly used versioning type.</p></li>
+<li><p>Major updates increase x and reset y to zero.</p></li>
+<li><p>Minor updates increase y.</p></li>
+</ul>
+</div>
+<div class="compound">
+<p><strong>Chronological</strong></p>
+<ul class="simple">
+<li><p>Version is a date.</p></li>
+<li><p>This versioning type is commonly used for periodical documents.</p></li>
+<li><p>For instance : weekly boards.</p></li>
+</ul>
+</div>
+<div class="compound">
+<p><strong>Sequential</strong></p>
+<ul class="simple">
+<li><p>Version is a sequential number.</p></li>
+<li><p>This versioning type is commonly used for recurring documents.</p></li>
+<li><p>For instance : Meeting reviews.</p></li>
+</ul>
+</div>
+<div class="compound">
+<p><strong>Custom</strong></p>
+<ul class="simple">
+<li><p>Version is manually set.</p></li>
+<li><p>This versioning type is commonly used for external documents, when version is not managed by the tool, or when the format cannot fit any other versioning type.</p></li>
+</ul>
+</div>
+</div></blockquote>
+<p class="rubric">Document viewer</p>
+<ul class="simple">
+<li><p>Document viewer available for image, text and PDF files.</p></li>
+<li><p>Click on <a class="reference internal" href="_images/iconAdd.png"><img alt="Add" src="_images/iconAdd.png" style="width: 19.2px; height: 19.2px;" /></a> to display the pop up.</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong>Drag and drop</strong></p>
+<p>You can drag your file directly onto the screen.</p>
+<p>The “document version” pop-up opens automatically to allow you to drop your file into the pop-up window.</p>
+</div>
+<figure class="align-center" id="id5">
+<img alt="Dialog box - Document version" src="_images/DOCUMENT_BOX_DocumentVersion.png" />
+<figcaption>
+<p><span class="caption-text">Document version dialog box</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong>Name of download file</strong></p>
+<p>The name of download file will be the document reference name displayed in <strong>description</strong> section.</p>
+<p>If you want to preserve the uploaded file name, set the parameter in  the <a class="reference internal" href="GlobalParameters.html#format-reference-doc"><span class="std std-ref">Global parameters</span></a></p>
+</div>
+<p class="rubric">Field “Update”</p>
+<p>A version can have a draft status, that may be removed afterwards.</p>
+<p class="rubric">Field “Is a reference”</p>
+<p>Should be checked when version is validated.</p>
+<p>Only one version can be the reference for a document.</p>
+<p>Reference version is displayed in bold format in the versions list.</p>
+<p class="rubric">Field “Description”</p>
+<p>May be used to describe updates brought by the version.</p>
+<p>This icon <a class="reference internal" href="_images/iconComment.png"><img alt="Comment" src="_images/iconComment.png" style="width: 19.2px; height: 19.2px;" /></a> appears when the description field is filled.</p>
+<p>Moving the mouse over the icon will display description text.</p>
+</section>
+<section id="approval-process">
+<span id="approval-process-doc"></span><h2>Approval process<a class="headerlink" href="#approval-process" title="Permalink to this heading">¶</a></h2>
+<p>You can define approvers for a document.</p>
+<p>Only users assigned to the project linked to the document can be added.</p>
+<ul class="simple">
+<li><p>Click on <a class="reference internal" href="_images/iconAdd.png"><img alt="Add" src="_images/iconAdd.png" style="width: 19.2px; height: 19.2px;" /></a> to add an approver</p></li>
+<li><p>Click on <a class="reference internal" href="_images/iconDelete.png"><img alt="Delete" src="_images/iconDelete.png" style="width: 19.2px; height: 19.2px;" /></a> to delete an approver</p></li>
+</ul>
+<p class="rubric">The approvers</p>
+<p>When an approver is created in the list, the approver is also automatically added to the latest version of the document.</p>
+<p>When adding a version to the document, approvers are automatically added to the version.</p>
+<p>Each approver can see the list of documents to approve on their Today screen.</p>
+<figure class="align-default" id="id6">
+<img alt="Document to approve" src="_images/DOCUMENT_ZONE_TodayDoc.png" />
+<figcaption>
+<p><span class="caption-text">Documents to be approved on the today screen</span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<p>On the Documents screen, the approver can approve or reject the document.</p>
+<p>All approvers of the document can view the response of other approvers.</p>
+<figure class="align-default" id="id7">
+<img alt="Document to approve" src="_images/DOCUMENT_ZONE_Approve.png" />
+<figcaption>
+<p><span class="caption-text">Documents to be approved on the today screen</span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<p>Once the document is <strong>approved</strong>, the line is then checked and the date and time of the approval recorded.</p>
+<p>If the document is <strong>rejected</strong>, the line is then marked with a cross with date and rejection cause.</p>
+<blockquote>
+<div><div class="compound">
+<p>Approval status</p>
+<p>This status allows you to globally track the status of the approval.</p>
+<p>It can be used in a filter, like all the other fields of the document object.</p>
+<p>calculated according to the approval status of the latest version of the document and may take the following values:</p>
+<ul class="simple">
+<li><p><strong>Without approval:</strong> if no approver has been added to the list of approvers</p></li>
+<li><p><strong>Rejected:</strong> if at least one approver rejected the version of the document</p></li>
+<li><p><strong>Pending approval:</strong> if there is at least one approver who has not approved the document and no one has yet rejected the version of the document</p></li>
+<li><p><strong>Approved:</strong> if all approvers approved the document.</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The quick search only display documents that are in directories to which the user has rights.</p>
+</div>
+</div>
+<div class="compound">
+<p>Send a reminder email to approvers</p>
+<p>Send an email to approvers who have not yet validated the document.</p>
+<p>Those who have already validated it will not receive this email.</p>
+<p>The sending will be effective if an email address has been registered for the user.</p>
+</div>
+</div></blockquote>
+</section>
+<section id="document-directories">
+<span id="document-directory"></span><span id="index-4"></span><h2>Document directories<a class="headerlink" href="#document-directories" title="Permalink to this heading">¶</a></h2>
+<p>Document directories management allows to define a structure for document storage.</p>
+<p class="rubric">Location</p>
+<ul>
+<li><p>The files of document will be stored in the folder defined by the parameters  <strong>Document root</strong> and <strong>Location</strong>.</p></li>
+<li><p><strong>Document root</strong> is defined in <a class="reference internal" href="GlobalParameters.html#file-directory-section"><span class="std std-ref">Global parameters</span></a> screen.</p></li>
+<li><p><strong>Location</strong> is automatically defined as «Parent directory» / «Name».</p></li>
+<li><p><strong>Product</strong> will be the default to new stored documents in this directory.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>If the project is specified, the list of values contains the products linked the selected project.</p></li>
+<li><p>If the project is not specified, the list of values contains all products defined.</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>The <strong>Default type</strong> will be the default to new stored documents in this directory.</p></li>
+</ul>
+<p class="rubric" id="directory-access-rights">Directory access rights</p>
+<ul class="simple">
+<li><p>The list of documents only displays Documents that are in directories for which the user has read rights.</p></li>
+<li><p>You can define the access rights to documents according to the profile at each level of the document directory tree.</p></li>
+<li><p>There is no notion of inheriting rights to subdirectories.</p></li>
+<li><p>You define for each profile the CRUD right (create / read / update / delete) on each directory.</p></li>
+<li><p>The rights defined in the “Project dependent data access” rights screen will only be used as a definition of default values when creating a directory.</p></li>
+</ul>
+<p>See: <a class="reference internal" href="AccessRights.html#doc-rights-per-directory"><span class="std std-ref">Documents rights per directory</span></a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul class="simple">
+<li><p>Note that if a directory is dedicated to a project, the profile used for assigning rights is the user’s profile on this project, otherwise it is his default profile.</p></li>
+<li><p>The assignment of modification or deletion rights without assigning read rights is inconsistent and will not be taken into account.</p></li>
+</ul>
+</div>
+</section>
+<section id="global-export-for-document">
+<span id="files-export"></span><span id="index-5"></span><h2>Global export for document<a class="headerlink" href="#global-export-for-document" title="Permalink to this heading">¶</a></h2>
+<p>The export of documents allows the extraction of documents in .zip file format.</p>
+<p>The generated .zip file will be named with the formatting nameElement_UserN°ID.zip</p>
+<p>You will be able to extract:</p>
+<ul class="simple">
+<li><p>All documents in a directory</p></li>
+<li><p>All the documents for a given element (project, activity, ticket, etc.)</p></li>
+<li><p>All the documents of a project and its elements</p></li>
+<li><p>All the documents of a project and its elements including the sub-projects and the elements of these sub-projects.</p></li>
+</ul>
+<p>This includes attached files in addition to documents.</p>
+<p class="rubric">Extract files for project</p>
+<figure class="align-default" id="id8">
+<img alt="Document's files extraction for project" src="_images/DOCUMENT_BOX_FileExtractionProject.png" />
+<figcaption>
+<p><span class="caption-text">Document’s files extraction for project</span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<ul class="simple">
+<li><p>Click on <a class="reference internal" href="_images/iconZipFile.png"><img alt="Extract" src="_images/iconZipFile.png" style="width: 19.2px; height: 19.2px;" /></a> in the tools menu in the details area to open the pop up</p></li>
+</ul>
+<blockquote>
+<div><div class="compound">
+<p>Extract project document</p>
+<p>All documents related to the selected project will be exported.</p>
+</div>
+<div class="compound">
+<p>Extracted file names</p>
+<p>Name preservation is only active on documents.</p>
+<p>The initial name keeps the exact name of your document.</p>
+<p>The formatted name retrieves the document reference and the extracted version.</p>
+</div>
+<div class="compound">
+<p>Extracted version for each document</p>
+<p>Two possibilities :</p>
+<ul class="simple">
+<li><p>Last version</p></li>
+<li><p>Reference version</p></li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>The reference version is not necessarily the last version</p>
+</div>
+</div>
+<div class="compound">
+<p>Extract sub-project files</p>
+<p>Without this option the sub-projects will not be included in the extraction.</p>
+</div>
+<div class="compound">
+<p>Extract project elements document</p>
+<p>Each element of the project containing documents will be exported.</p>
+<p>Each item will have its own folder in the zip file.</p>
+</div>
+<div class="compound">
+<p>Extract attachments</p>
+<p>All the attached files on the project and its elements will be exported.</p>
+</div>
+</div></blockquote>
+<p class="rubric">Extract files for directories</p>
+<figure class="align-default" id="id9">
+<img alt="Document's file Extraction for directories" src="_images/DOCUMENT_BOX_FileExtractionDirectory.png" />
+<figcaption>
+<p><span class="caption-text">Document’s file Extraction for directories</span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<p>The document directories can be extracted in their entirety.</p>
+<figure class="align-default" id="id10">
+<img alt="Exemple Extract files for directory" src="_images/DOCUMENT_BOX_FileExtraction.png" />
+<figcaption>
+<p><span class="caption-text">Exemple Extract files for directory</span><a class="headerlink" href="#id10" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<p>When extracting directories including sub-directories, we find in the generated zip file only the sub-directories containing documents.</p>
+<blockquote>
+<div><div class="compound">
+<p>Extract file names</p>
+<p>Name preservation is only active on documents.</p>
+<p>The initial name keeps the exact name of your document.</p>
+<p>The formatted name retrieves the document reference and the extracted version.</p>
+</div>
+<div class="compound">
+<p>Extract document version</p>
+<p><strong>Two possibilities:</strong></p>
+<ul class="simple">
+<li><p>Last version</p></li>
+<li><p>Reference version</p></li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>The reference version is not necessarily the last version</p>
+</div>
+</div>
+<div class="compound">
+<p>Extract sub-directories</p>
+<p>Without this option the sub-directories will not be included in the extraction.</p>
+</div>
+</div></blockquote>
+<p class="rubric">Extract for item</p>
+<figure class="align-default" id="id11">
+<img alt="Document's file Extraction" src="_images/DOCUMENT_BOX_FileExtractionDoc.png" />
+<figcaption>
+<p><span class="caption-text">Document’s file Extraction</span><a class="headerlink" href="#id11" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<p>The documents, attached files can be extracted of an item.</p>
+<blockquote>
+<div><div class="compound">
+<p>Extracted file names</p>
+<p>Name preservation is only active on documents.</p>
+<p>The initial name keeps the exact name of your document.</p>
+<p>The formatted name retrieves the document reference and the extracted version.</p>
+</div>
+<div class="compound">
+<p>Extracted version for each document</p>
+<p><strong>Two possibilities:</strong></p>
+<ul class="simple">
+<li><p>Last version</p></li>
+<li><p>Reference version</p></li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>The reference version is not necessarily the last version</p>
+</div>
+</div>
+<div class="compound">
+<p>Extract attachments</p>
+<p>Include attached files in the extract</p>
+</div>
+</div></blockquote>
+</section>
+<section id="nomenclature">
+<h2>Nomenclature<a class="headerlink" href="#nomenclature" title="Permalink to this heading">¶</a></h2>
+<p class="rubric">product designation in the document nomenclature</p>
+<p>Possibility to take into account the designation of the product in the nomenclature of documents with the new codes</p>
+<ul class="simple">
+<li><p>{PROD} product designation</p></li>
+<li><p>{PROJ/PROD} the project code if specified, otherwise the product designation</p></li>
+<li><p>{PROD/PROJ} designation of the product if specified, otherwise the project code</p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="index.html">
+              <img class="logo" src="_static/Projeqtor_Logo_White.png" alt="Logo"/>
+            </a></p>
+  <div>
+    <h3><a href="index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Documents</a><ul>
+<li><a class="reference internal" href="#document-versioning">Document versioning</a></li>
+<li><a class="reference internal" href="#approval-process">Approval process</a></li>
+<li><a class="reference internal" href="#document-directories">Document directories</a></li>
+<li><a class="reference internal" href="#global-export-for-document">Global export for document</a></li>
+<li><a class="reference internal" href="#nomenclature">Nomenclature</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div>
+    <h4>Previous topic</h4>
+    <p class="topless"><a href="AssetManagement.html"
+                          title="previous chapter">Asset Management</a></p>
+  </div>
+  <div>
+    <h4>Next topic</h4>
+    <p class="topless"><a href="Translation.html"
+                          title="next chapter">Translation</a></p>
+  </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="Translation.html" title="Translation"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="AssetManagement.html" title="Asset Management"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">ProjeQtOr User guide 11.1 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Export for files</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2015-2024, ProjeQtOr.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 5.1.1.
+    </div>
+  </body>
+</html>

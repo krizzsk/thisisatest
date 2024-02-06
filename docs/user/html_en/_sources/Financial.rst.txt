@@ -1,0 +1,156 @@
+.. raw:: latex
+
+    \newpage
+    
+.. include:: ImageReplacement.txt
+
+.. title:: Financial monitoring
+
+.. index:: Financial monitoring
+
+
+
+.. _financial-situation:
+
+Financial situation
+*******************
+
+.. rubric:: Project financial situation
+
+The financial situation screens allow you to follow precisely with your own steps all the financial elements of a project. 
+
+.. figure:: /images/GUI/FINANCIAL_SCR_ProjectFinancialSituation.png
+   :alt: Project financial situation screen
+   
+   Project financial situation screen
+
+Find the financial situation in its entirety on the respective screens of the elements.
+
+Financial status screens will only display the most recent transaction.
+
+
+.. rubric:: Project financial situations
+
+On this screen you view all the financial documents related to your projects.
+To display a situation, you must create them directly on the screen of the document concerned.
+It is possible to predefine financial situations.
+
+The list box displays the last processed financial document.
+The detail area displays all the expense and income financial documents in their current state.
+
+You can display only the expenses financial situation or the income financial situation on their respective screen. 
+
+ .. compound:: Expenses financial situation
+
+   The following operations will then be displayed for the expenses.
+   
+   - Call for tender.
+   - Provider tenders
+   - Orders to provider
+   - Provider bills
+
+
+ .. compound:: Incomes financial situation
+
+   The following operations will then displayed for the incomes.
+   
+   - Client quatations
+   - Client orders
+   - Clients bills
+   - Client paiements
+
+
+.. rubric:: Predefined situation
+
+You create several defined situation than you will can used to defined situations on the financial elements.
+
+Click on |Add| to add a new predefined situation
+
+
+.. figure:: /images/GUI/FINANCIAL_ZONE_PredefinedSituation.png
+   :alt: Predefined situation
+   
+   Predefined situation
+   
+You can limited the predefined situation on an element or a type of element.
+
+
+.. rubric:: Financial situation
+
+Click on |New| to create a financial statement on an eligible financial document.
+
+   
+.. figure:: /images/GUI/FINANCIAL_ZONE_FinancialSituation.png
+   :alt: Financial situation section
+   
+   Financial situation section
+
+
+If you have created predefined situations, you can choose them from the corresponding drop-down list.
+
+If you do not have predefined situations, then fill in the situation directly manually, respecting the mandatory fields.
+
+   
+.. figure:: /images/GUI/FINANCIAL_BOX_FinancialSituation.png
+   :alt: Financial situation pop-up
+   
+   Financial situation pop-up
+    
+    
+    
+    
+         
+
+.. _gantt-contract:
+
+Gantt Contract client & provider
+********************************
+
+
+
+.. _provider-gantt:
+
+Provider contract Gantt chart
+=============================
+
+In addition to the contract management screen (list and details area), you can view your contracts in a time view on a Gantt chart. This is the "contract schedule"
+
+Each bar representing the different contracts, going from the start date to the end date of the contract.
+
+Notice dates and due dates are displayed as milestones.
+
+Gantt bars for customer contracts turn red when the due date is higher than the end of contract date. 
+
+No calculation is made. This is an indication to show an inconsistency. 
+
+
+
+.. figure:: /images/GUI/EXPENSES_SCR_GanttSupplierContract.png
+   :alt: Supplier contract gantt chart screen
+   
+   Supplier contract Gantt chart screen
+
+
+
+.. _client-Gantt:
+
+Client contract Gantt chart
+===========================
+
+In addition to the contract management screen (list and details area), you can view your contracts in a time view on a Gantt chart. This is the "customer contract calendar"
+
+Each bar representing the different contracts, going from the start date to the end date of the contract.
+
+Notice dates and due dates are displayed as milestones. 
+
+Gantt bars for customer contracts turn red when the due date is higher than the end of contract date. 
+
+No calculation is made. This is an indication to show an inconsistency. 
+
+
+.. figure:: /images/GUI/INCOMES_SCR_ClientContratGANTT.png
+   :alt: Client contract gantt chart screen
+   
+   Client contract Gantt chart screen
+
+   

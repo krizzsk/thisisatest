@@ -1,0 +1,427 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+    <title>Asset Management &#8212; ProjeQtOr User guide 11.1 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/classic.css" />
+    <link rel="stylesheet" href="_static/projeqtor.css" type="text/css" />
+    
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="_static/doctools.js"></script>
+    
+    <link rel="shortcut icon" href="_static/favicon.ico"/>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Documents" href="Document.html" />
+    <link rel="prev" title="Collaboration" href="Collaboration.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="Document.html" title="Documents"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="Collaboration.html" title="Collaboration"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">ProjeQtOr User guide 11.1 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Asset Management</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="asset-management">
+<span id="index-0"></span><span id="id1"></span><h1>Asset Management<a class="headerlink" href="#asset-management" title="Permalink to this heading">¶</a></h1>
+<p>This module is dedicated to the management of your IT infrastructure.</p>
+<p>You can manage:</p>
+<ul class="simple">
+<li><p>All types of equipment</p></li>
+<li><p>Equipment categories</p></li>
+<li><p>Brands</p></li>
+<li><p>Models</p></li>
+<li><p>Equipement localisations</p></li>
+</ul>
+<section id="equipment">
+<h2>Equipment<a class="headerlink" href="#equipment" title="Permalink to this heading">¶</a></h2>
+<p>This screen allows you to manage lists of licenses, versions, products or even components linked to equipment.</p>
+<ul class="simple">
+<li><p>Define the list of devices contained in another device.</p></li>
+<li><p>Display the global tree of the equipment constituting an equipment, by being able to close or expand a given level.</p></li>
+<li><p>When copying a device you can select the complete composition of this device.</p></li>
+<li><p>Each piece of equipment contained is duplicated, recursively, by initializing the unique data (serial number, references, etc.).</p></li>
+</ul>
+<figure class="align-default" id="id7">
+<img alt="Asset management screen" src="_images/ASSETMANAGMENT_SCR_Assets.png" />
+<figcaption>
+<p><span class="caption-text">Asset management screen</span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<p class="rubric">Access rights</p>
+<p>You can limit the visibility of equipment.</p>
+<p>some fields will be updated automatically to allow the user to see the items they have just created.</p>
+<p>If a profile has creation rights and read rights only on “the items for which it is responsible”, the creation must automatically position the manager on the current user.</p>
+<p>If a profile has creation rights and read rights only on “its own elements”, the creation must automatically position the user on the current user.</p>
+<p>This rights management is automatically extended to all elements not dependent on the project.</p>
+<p>Feeding the responsible field when creating an element if the user has visibility rights such as “the elements for which he is responsible”.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Hide buttons “Lock” and “send mail” when access right is readonly</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Each asset related to a resource or an user, is displayed on their respective screen.</p>
+<p>See: <a class="reference internal" href="Resource.html#allocated-asset-resource"><span class="std std-ref">Resource</span></a> and <a class="reference internal" href="User.html#allocated-asset-user"><span class="std std-ref">User</span></a></p>
+</div>
+<p class="rubric">Description</p>
+<p>This section allows you to enter the details of the composition of an item of equipment.</p>
+<table class="docutils align-default" id="id8">
+<caption><span class="caption-text">Fields of add an origin element dialog box</span><a class="headerlink" href="#id8" title="Permalink to this table">¶</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Field</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>name</p></td>
+<td><p>Name of the asset.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Asset type</p></td>
+<td><p>Type of the asset defined in the asset type screen.</p></td>
+</tr>
+<tr class="row-even"><td><p>Brand</p></td>
+<td><p>Brand of the asset defined in the brand screen</p></td>
+</tr>
+<tr class="row-odd"><td><p>Model</p></td>
+<td><p>Model of the brand of the asset.</p></td>
+</tr>
+<tr class="row-even"><td><p>Provider</p></td>
+<td><p>Equipment provider</p></td>
+</tr>
+<tr class="row-odd"><td><p>Asset category</p></td>
+<td><p>Category of the asset. Individual or collective by defaut.</p></td>
+</tr>
+<tr class="row-even"><td><p>Parent asset</p></td>
+<td><p>Link to parent equipment. This contains the other equipment. A computer has multiple devices.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Serial number</p></td>
+<td><p>Serial number of the material or the serial numer of a licence.</p></td>
+</tr>
+<tr class="row-even"><td><p>Inventory number</p></td>
+<td><p>Add your own identification number to your equipment inventory.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Description</p></td>
+<td><p>Description of the asset</p></td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Attribution section</p>
+<figure class="align-default" id="id9">
+<img alt="Attribution section" src="_images/ASSETMANAGMENT_ZONE_Attribution.png" />
+<figcaption>
+<p><span class="caption-text">Attribution section</span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<p>This section allow to define:</p>
+<ul class="simple">
+<li><p>A status for each device according to the selected workflow.</p></li>
+<li><p>An installation date and a possible decommissioning date.</p></li>
+<li><p>The location of the equipment, with the possibility of defining a list (see: <a class="reference internal" href="#asset-types"><span class="std std-ref">Asset types</span></a>) and / or a manual entry field for more precision.</p></li>
+<li><p>The user who will benefit from this equipment.</p></li>
+<li><p>The closed check box. Which allows to put the equipment in archive mode.</p></li>
+</ul>
+<p class="rubric">Costs section</p>
+<p>This section allow to define costs for the selected asset.</p>
+<p>You can set a cost for:</p>
+<ul class="simple">
+<li><p>Purchase value</p></li>
+<li><p>The warranty period</p></li>
+<li><p>End of warranty date</p></li>
+<li><p>The amortization period</p></li>
+<li><p>The need for insurance</p></li>
+</ul>
+<figure class="align-default" id="id10">
+<img alt="Costs section" src="_images/ASSETMANAGMENT_ZONE_Costs.png" />
+<figcaption>
+<p><span class="caption-text">Costs section</span><a class="headerlink" href="#id10" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<p class="rubric">Asset composition section</p>
+<p>When you define an element parent, the components of the element appear in this section giving you the complete structure of an element.</p>
+<figure class="align-default" id="id11">
+<img alt="Asset composition" src="_images/ASSETMANAGMENT_ZONE_AssetComposition.png" />
+<figcaption>
+<p><span class="caption-text">Asset composition</span><a class="headerlink" href="#id11" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<p>The button <kbd class="kbd compound docutils literal notranslate"><kbd class="kbd docutils literal notranslate">display</kbd> <kbd class="kbd docutils literal notranslate">the</kbd> <kbd class="kbd docutils literal notranslate">structure</kbd></kbd> opens a pop up which summarizes the complete composition of your equipment in table form.</p>
+<p>You can print this box.</p>
+<figure class="align-default" id="id12">
+<img alt="Asset composition section" src="_images/ASSETMANAGMENT_ZONE_DisplayStructure.png" />
+<figcaption>
+<p><span class="caption-text">Asset composition section</span><a class="headerlink" href="#id12" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="asset-types">
+<span id="id2"></span><h2>Asset types<a class="headerlink" href="#asset-types" title="Permalink to this heading">¶</a></h2>
+<p>The types of asset in equipment make it possible to list the different materials of an equipment.</p>
+<p>For example, a workstation contains a computer, peripherals such as a screen, a mouse, a keyboard, or even a webcam, software, licenses, a printer …</p>
+<p>But you can also create even more detailed lists with types of information storage, processing, or network equipment.</p>
+<aside class="sidebar">
+<p class="sidebar-title">Other sections</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="ListsOfTypes.html#behavior-section"><span class="std std-ref">Behavior</span></a></p></li>
+</ul>
+</aside>
+<table class="docutils align-default" id="id13">
+<caption><span class="caption-text">Required fields <a class="reference internal" href="_images/RequiredFILE.png"><img alt="Required File legend" src="_images/RequiredFILE.png" style="width: 1.7999999999999998px; height: 10.799999999999999px;" /></a></span><a class="headerlink" href="#id13" title="Permalink to this table">¶</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Field</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="Glossary.html#term-Id"><span class="xref std std-term">Id</span></a></p></td>
+<td><p>Unique Id for the type.</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="Required File" src="_images/RequiredFILE.png" /> Name</p></td>
+<td><p>Name of the type.</p></td>
+</tr>
+<tr class="row-even"><td><p>Code</p></td>
+<td><p>Code of the type.</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="Required File" src="_images/RequiredFILE.png" /> Workflow</p></td>
+<td><p>Defined the workflow ruling status change for items of this type (see: <a class="reference internal" href="ControlAutomation.html#workflow"><span class="std std-ref">Workflow</span></a>).</p></td>
+</tr>
+<tr class="row-even"><td><p>Sort order</p></td>
+<td><p>Number to define order of display in lists.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="Glossary.html#term-Closed"><span class="xref std std-term">Closed</span></a></p></td>
+<td><p>Box checked indicates the type is archived.</p></td>
+</tr>
+<tr class="row-even"><td><p>Description</p></td>
+<td><p>Description of the type.</p></td>
+</tr>
+</tbody>
+</table>
+<p>You can define an icon for each type of asset.</p>
+<p>ProjeQtOr puts some icons at your disposal but you can create and import yours in the application.</p>
+<p>Save your icons in the <strong>www\projeqtor\view\icons</strong> folder and relaunch the application.</p>
+</section>
+<section id="asset-category">
+<span id="id3"></span><h2>Asset category<a class="headerlink" href="#asset-category" title="Permalink to this heading">¶</a></h2>
+<p>The screen of the equipment categories will allow you to make a more detailed inventory of certain equipment.</p>
+<p>You can determine for example whether a piece of equipment can be personal, for a service or collective.</p>
+<p>But you can also determine if a device is part of a hardware, network or workstation architecture</p>
+<table class="docutils align-default" id="id14">
+<caption><span class="caption-text">Required fields <a class="reference internal" href="_images/RequiredFILE.png"><img alt="Required File legend" src="_images/RequiredFILE.png" style="width: 1.7999999999999998px; height: 10.799999999999999px;" /></a></span><a class="headerlink" href="#id14" title="Permalink to this table">¶</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Field</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="Glossary.html#term-Id"><span class="xref std std-term">Id</span></a></p></td>
+<td><p>Unique Id for the type.</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="Required File" src="_images/RequiredFILE.png" /> Name</p></td>
+<td><p>Name of the type.</p></td>
+</tr>
+<tr class="row-even"><td><p>Sort order</p></td>
+<td><p>Number to define order of display in lists.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="Glossary.html#term-Closed"><span class="xref std std-term">Closed</span></a></p></td>
+<td><p>Box checked indicates the type is archived.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="brands">
+<span id="id4"></span><h2>Brands<a class="headerlink" href="#brands" title="Permalink to this heading">¶</a></h2>
+<p>The brand screen allows to create a list of brands making up your IT infrastructure.</p>
+<table class="docutils align-default" id="id15">
+<caption><span class="caption-text">Required fields <a class="reference internal" href="_images/RequiredFILE.png"><img alt="Required File legend" src="_images/RequiredFILE.png" style="width: 1.7999999999999998px; height: 10.799999999999999px;" /></a></span><a class="headerlink" href="#id15" title="Permalink to this table">¶</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Field</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="Glossary.html#term-Id"><span class="xref std std-term">Id</span></a></p></td>
+<td><p>Unique Id for the type.</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="Required File" src="_images/RequiredFILE.png" /> Name</p></td>
+<td><p>Name of the type.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="Glossary.html#term-Closed"><span class="xref std std-term">Closed</span></a></p></td>
+<td><p>Box checked indicates the type is archived.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="models">
+<span id="id5"></span><h2>Models<a class="headerlink" href="#models" title="Permalink to this heading">¶</a></h2>
+<p>The model screen allows you to create a list of models linked to a brand and type of equipment.</p>
+<table class="docutils align-default" id="id16">
+<caption><span class="caption-text">Required fields <a class="reference internal" href="_images/RequiredFILE.png"><img alt="Required File legend" src="_images/RequiredFILE.png" style="width: 1.7999999999999998px; height: 10.799999999999999px;" /></a></span><a class="headerlink" href="#id16" title="Permalink to this table">¶</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Field</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="Glossary.html#term-Id"><span class="xref std std-term">Id</span></a></p></td>
+<td><p>Unique Id for the type.</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="Required File" src="_images/RequiredFILE.png" /> brand</p></td>
+<td><p>Name of the brand.</p></td>
+</tr>
+<tr class="row-even"><td><p>Name</p></td>
+<td><p>Name of the model</p></td>
+</tr>
+<tr class="row-odd"><td><p>Asset type</p></td>
+<td><p>Name of the asset type</p></td>
+</tr>
+<tr class="row-even"><td><p>Description</p></td>
+<td><p>Description of the model.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="location">
+<span id="id6"></span><h2>Location<a class="headerlink" href="#location" title="Permalink to this heading">¶</a></h2>
+<p>Location screen allow to create a list of places so that you can locate your equipment.</p>
+<figure class="align-default" id="id17">
+<img alt="Location screen" src="_images/ASSETMANAGMENT_SCR_Location.png" />
+<figcaption>
+<p><span class="caption-text">Location screen</span><a class="headerlink" href="#id17" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<p class="rubric">Description section</p>
+<table class="docutils align-default" id="id18">
+<caption><span class="caption-text">Required fields <a class="reference internal" href="_images/RequiredFILE.png"><img alt="Required File legend" src="_images/RequiredFILE.png" style="width: 1.7999999999999998px; height: 10.799999999999999px;" /></a></span><a class="headerlink" href="#id18" title="Permalink to this table">¶</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Field</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="Glossary.html#term-Id"><span class="xref std std-term">Id</span></a></p></td>
+<td><p>Unique Id for the type.</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="Required File" src="_images/RequiredFILE.png" /> Name</p></td>
+<td><p>Name of the location.</p></td>
+</tr>
+<tr class="row-even"><td><p>Sort order</p></td>
+<td><p>Number to define order of display in lists.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="Glossary.html#term-Closed"><span class="xref std std-term">Closed</span></a></p></td>
+<td><p>Box checked indicates the type is archived.</p></td>
+</tr>
+<tr class="row-even"><td><p>Description</p></td>
+<td><p>Description of the location</p></td>
+</tr>
+</tbody>
+</table>
+<p>The “location” fields in the assets screen offers the possibility of selecting from the recorded list of locations and a manual entry field allowing you to add details with alphanumeric characters.</p>
+<p class="rubric">Adress section</p>
+<p>You can complete the axacte address by filling in numerous fields :</p>
+<ul class="simple">
+<li><p>Street</p></li>
+<li><p>Complement</p></li>
+<li><p>Zip code</p></li>
+<li><p>City</p></li>
+<li><p>State</p></li>
+<li><p>Country</p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="index.html">
+              <img class="logo" src="_static/Projeqtor_Logo_White.png" alt="Logo"/>
+            </a></p>
+  <div>
+    <h3><a href="index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Asset Management</a><ul>
+<li><a class="reference internal" href="#equipment">Equipment</a></li>
+<li><a class="reference internal" href="#asset-types">Asset types</a></li>
+<li><a class="reference internal" href="#asset-category">Asset category</a></li>
+<li><a class="reference internal" href="#brands">Brands</a></li>
+<li><a class="reference internal" href="#models">Models</a></li>
+<li><a class="reference internal" href="#location">Location</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div>
+    <h4>Previous topic</h4>
+    <p class="topless"><a href="Collaboration.html"
+                          title="previous chapter">Collaboration</a></p>
+  </div>
+  <div>
+    <h4>Next topic</h4>
+    <p class="topless"><a href="Document.html"
+                          title="next chapter">Documents</a></p>
+  </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="Document.html" title="Documents"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="Collaboration.html" title="Collaboration"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">ProjeQtOr User guide 11.1 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Asset Management</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2015-2024, ProjeQtOr.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 5.1.1.
+    </div>
+  </body>
+</html>

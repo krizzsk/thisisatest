@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   version="1.1"
+   id="Calque_1"
+   x="0px"
+   y="0px"
+   width="128px"
+   height="128px"
+   viewBox="0 0 128 128"
+   enable-background="new 0 0 128 128"
+   xml:space="preserve"
+   sodipodi:docname="iconPin_v2.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs9"><inkscape:path-effect
+     effect="powerclip"
+     id="path-effect1363"
+     is_visible="true"
+     lpeversion="1"
+     inverse="true"
+     flatten="false"
+     hide_clip="false"
+     message="Utilise la règle de remplissage « fill-rule: evenodd » de la boîte de dialogue &lt;b&gt;Fond et contour&lt;/b&gt; en l'absence de résultat de mise à plat après une conversion en chemin." /><clipPath
+     clipPathUnits="userSpaceOnUse"
+     id="clipPath1359"><rect
+       style="display:none;fill:#e52420;fill-opacity:1;stroke:none;stroke-width:8.82047;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1361"
+       width="24.621664"
+       height="30.8218"
+       x="50.349052"
+       y="127.88661" /><path
+       id="lpe_path-effect1363"
+       style="fill:#e52420;fill-opacity:1;stroke:none;stroke-width:8.82047;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       class="powerclip"
+       d="M -0.77710273,0.59849447 H 129.88173 V 160.52874 H -0.77710273 Z M 50.349052,127.88661 v 30.8218 h 24.621664 v -30.8218 z" /></clipPath></defs><sodipodi:namedview
+   id="namedview7"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   showgrid="false"
+   inkscape:zoom="2.0246816"
+   inkscape:cx="141.75068"
+   inkscape:cy="85.198582"
+   inkscape:window-width="2400"
+   inkscape:window-height="1261"
+   inkscape:window-x="2391"
+   inkscape:window-y="-9"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Calque_1" />
+
+<g
+   id="g1357"
+   clip-path="url(#clipPath1359)"
+   inkscape:path-effect="#path-effect1363"><g
+     id="g4"
+     transform="matrix(0.69304507,-0.72266737,0.72372387,0.69298342,-27.380463,74.951678)"
+     style="fill:#e52420;fill-opacity:1">
+	<path
+   fill="none"
+   stroke="#e52420"
+   stroke-width="5"
+   stroke-linecap="round"
+   stroke-linejoin="round"
+   stroke-miterlimit="10"
+   d="M 111.266,19.58 C 102.448,10.74 92.368,6.627 88.713,10.197 c -0.342,0.344 -0.593,0.762 -0.8,1.213 l -0.228,-0.212 -4.547,4.595 c 0,0 0.979,5.65 4.789,12.138 C 87.191,27.07 86.818,26.58 86.818,26.58 L 61.321,48.158 c -2.894,-0.735 -14.628,-3.1 -24.145,4.619 0,0 -5.426,6.694 8.273,23.073 L 16.372,104.854 6.157,119.086 20.003,109.631 49.675,80.527 c 2.823,2.674 20.817,19.129 28.111,11.445 0,0 8.623,-11.203 3.438,-24.375 -0.109,-0.24 -0.193,-0.518 -0.277,-0.781 l 21.334,-24.193 c 3.57,2.099 7.791,3.882 12.713,5.054 l 5.4,-5.481 c 0.046,-0.042 0.103,-0.071 0.146,-0.115 0.051,-0.05 0.084,-0.115 0.133,-0.167 l 0.025,-0.026 -0.003,-0.003 c 3.333,-3.757 -0.817,-13.663 -9.429,-22.305 z"
+   id="path2"
+   style="fill:#e52420;fill-opacity:1"
+   inkscape:original-d="M 111.266,19.58 C 102.448,10.74 92.368,6.627 88.713,10.197 c -0.342,0.344 -0.593,0.762 -0.8,1.213 l -0.228,-0.212 -4.547,4.595 c 0,0 0.979,5.65 4.789,12.138 C 87.191,27.07 86.818,26.58 86.818,26.58 L 61.321,48.158 c -2.894,-0.735 -14.628,-3.1 -24.145,4.619 0,0 -5.426,6.694 8.273,23.073 L 16.372,104.854 6.157,119.086 20.003,109.631 49.675,80.527 c 2.823,2.674 20.817,19.129 28.111,11.445 0,0 8.623,-11.203 3.438,-24.375 -0.109,-0.24 -0.193,-0.518 -0.277,-0.781 l 21.334,-24.193 c 3.57,2.099 7.791,3.882 12.713,5.054 l 5.4,-5.481 c 0.046,-0.042 0.103,-0.071 0.146,-0.115 0.051,-0.05 0.084,-0.115 0.133,-0.167 l 0.025,-0.026 -0.003,-0.003 c 3.333,-3.757 -0.817,-13.663 -9.429,-22.305 z" />
+</g><path
+     style="fill:#e52420;fill-opacity:1;stroke:#e52420;stroke-width:8.27422;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+     d="m 8.3600075,123.74763 112.3846125,0.001"
+     id="path627"
+     inkscape:original-d="m 8.3600075,123.74763 112.3846125,0.001" /></g></svg>
